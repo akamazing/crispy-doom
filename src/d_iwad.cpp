@@ -21,15 +21,15 @@
 #include <ctype.h>
 #include <string.h>
 
-#include "deh_str.h"
-#include "doomkeys.h"
-#include "d_iwad.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_misc.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "deh_str.hpp"
+#include "doomkeys.hpp"
+#include "d_iwad.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 static const iwad_t iwads[] =
 {

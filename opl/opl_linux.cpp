@@ -15,7 +15,7 @@
 //     OPL Linux interface.
 //
 
-#include "config.h"
+#include "config.hpp"
 
 #if (defined(__i386__) || defined(__x86_64__)) && defined(HAVE_IOPERM)
 
@@ -25,9 +25,9 @@
 #include <unistd.h>
 #include <sys/io.h>
 
-#include "opl.h"
-#include "opl_internal.h"
-#include "opl_timer.h"
+#include "opl.hpp"
+#include "opl_internal.hpp"
+#include "opl_timer.hpp"
 
 static unsigned int opl_port_base;
 

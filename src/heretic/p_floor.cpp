@@ -13,10 +13,10 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
-#include "doomdef.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
 
 //==================================================================
 //==================================================================

@@ -29,7 +29,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "opl3.h"
+#include "opl3.hpp"
 
 #define RSM_FRAC    10
 

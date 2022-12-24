@@ -17,12 +17,12 @@
 
 #ifdef _WIN32
 
-#include "SDL.h"
-#include "SDL_thread.h"
+#include "SDL.hpp"
+#include "SDL_thread.hpp"
 #include <windows.h>
 
-#include "pcsound.h"
-#include "pcsound_internal.h"
+#include "pcsound.hpp"
+#include "pcsound_internal.hpp"
 
 static SDL_Thread *sound_thread_handle;
 static int sound_thread_running;

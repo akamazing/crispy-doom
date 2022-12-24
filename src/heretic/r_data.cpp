@@ -16,16 +16,16 @@
 
 // R_data.c
 
-#include "doomdef.h"
-#include "deh_str.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
 
-#include "i_swap.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "r_bmaps.h"
-#include "r_local.h"
-#include "p_local.h"
-#include "v_trans.h" // [crispy] color translation and color string tables
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "r_bmaps.hpp"
+#include "r_local.hpp"
+#include "p_local.hpp"
+#include "v_trans.hpp" // [crispy] color translation and color string tables
 
 
 typedef struct

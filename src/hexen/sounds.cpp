@@ -15,8 +15,8 @@
 //
 
 
-#include "h2def.h"
-#include "sounds.h"
+#include "h2def.hpp"
+#include "sounds.hpp"
 
 // Music info
 

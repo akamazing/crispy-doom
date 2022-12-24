@@ -19,13 +19,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "d_items.h"
+#include "d_items.hpp"
 
-#include "deh_defs.h"
-#include "deh_main.h"
-#include "deh_mapping.h"
+#include "deh_defs.hpp"
+#include "deh_main.hpp"
+#include "deh_mapping.hpp"
 
 DEH_BEGIN_MAPPING(weapon_mapping, weaponinfo_t)
   DEH_MAPPING("Ammo type",        ammo)

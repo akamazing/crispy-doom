@@ -16,19 +16,19 @@
 
 
 #include <string.h>
-#include "m_random.h"
-#include "h2def.h"
-#include "s_sound.h"
-#include "doomkeys.h"
-#include "i_input.h"
-#include "i_video.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "m_argv.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "v_video.h"
+#include "m_random.hpp"
+#include "h2def.hpp"
+#include "s_sound.hpp"
+#include "doomkeys.hpp"
+#include "i_input.hpp"
+#include "i_video.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "m_argv.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "v_video.hpp"
 
 #define AM_STARTKEY	9
 

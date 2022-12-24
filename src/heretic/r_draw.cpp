@@ -15,11 +15,11 @@
 //
 // R_draw.c
 
-#include "doomdef.h"
-#include "deh_str.h"
-#include "r_local.h"
-#include "i_video.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
+#include "r_local.hpp"
+#include "i_video.hpp"
+#include "v_video.hpp"
 
 /*
 

@@ -19,26 +19,26 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "d_event.h"
-#include "d_loop.h"
-#include "d_ticcmd.h"
+#include "d_event.hpp"
+#include "d_loop.hpp"
+#include "d_ticcmd.hpp"
 
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
 
-#include "m_argv.h"
-#include "m_fixed.h"
+#include "m_argv.hpp"
+#include "m_fixed.hpp"
 
-#include "net_client.h"
-#include "net_gui.h"
-#include "net_io.h"
-#include "net_query.h"
-#include "net_server.h"
-#include "net_sdl.h"
-#include "net_loop.h"
+#include "net_client.hpp"
+#include "net_gui.hpp"
+#include "net_io.hpp"
+#include "net_query.hpp"
+#include "net_server.hpp"
+#include "net_sdl.hpp"
+#include "net_loop.hpp"
 
-#include "crispy.h"
+#include "crispy.hpp"
 
 // The complete set of data for a particular tic.
 
@@ -831,8 +831,8 @@ void D_RegisterLoopCallbacks(loop_interface_t *i)
 }
 
 // TODO: Move nonvanilla demo functions into a dedicated file.
-#include "m_misc.h"
-#include "w_wad.h"
+#include "m_misc.hpp"
+#include "w_wad.hpp"
 
 static boolean StrictDemos(void)
 {

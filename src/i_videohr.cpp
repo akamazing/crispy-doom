@@ -16,12 +16,12 @@
 //     for Hexen startup loading screen.
 //
 
-#include "SDL.h"
-#include "string.h"
+#include "SDL.hpp"
+#include "string.hpp"
 
-#include "doomtype.h"
-#include "i_timer.h"
-#include "i_video.h"
+#include "doomtype.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
 
 // Palette fade-in takes two seconds
 

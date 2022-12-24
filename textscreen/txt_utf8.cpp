@@ -16,7 +16,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "txt_utf8.h"
+#include "txt_utf8.hpp"
 
 // Encode a Unicode character as UTF-8, storing it in the buffer 'p'
 // and returning the new, incremented position.

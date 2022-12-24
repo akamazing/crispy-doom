@@ -18,12 +18,12 @@
 
 
 
-#include "stdlib.h"
+#include "stdlib.hpp"
 
-#include "doomtype.h"
-#include "i_system.h"
+#include "doomtype.hpp"
+#include "i_system.hpp"
 
-#include "m_fixed.h"
+#include "m_fixed.hpp"
 
 
 

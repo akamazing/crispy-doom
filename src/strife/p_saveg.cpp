@@ -20,17 +20,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "dstrings.h"
-#include "deh_main.h"
-#include "i_system.h"
-#include "z_zone.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "p_saveg.h"
+#include "dstrings.hpp"
+#include "deh_main.hpp"
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "p_saveg.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 #define SAVEGAME_EOF 0x1d
 

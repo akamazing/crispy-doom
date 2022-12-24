@@ -23,32 +23,32 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "doomstat.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
 
-#include "deh_main.h"
-#include "i_system.h"
-#include "i_swap.h" // [crispy] LONG()
-#include "z_zone.h"
-#include "m_argv.h"
-#include "m_misc.h"
-#include "m_random.h"
-#include "v_snow.h"
-#include "w_wad.h"
-#include "r_swirl.h" // [crispy] R_InitDistortedFlats()
+#include "deh_main.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp" // [crispy] LONG()
+#include "z_zone.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
+#include "m_random.hpp"
+#include "v_snow.hpp"
+#include "w_wad.hpp"
+#include "r_swirl.hpp" // [crispy] R_InitDistortedFlats()
 
-#include "r_local.h"
-#include "p_local.h"
+#include "r_local.hpp"
+#include "p_local.hpp"
 
-#include "g_game.h"
+#include "g_game.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 // State.
-#include "r_state.h"
+#include "r_state.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 #define HUSTR_SECRETFOUND	"A secret is revealed!"
 

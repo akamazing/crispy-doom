@@ -16,11 +16,11 @@
 
 #include <stdio.h>
 
-#include "doomtype.h"
-#include "doomkeys.h"
+#include "doomtype.hpp"
+#include "doomkeys.hpp"
 
-#include "m_config.h"
-#include "m_misc.h"
+#include "m_config.hpp"
+#include "m_misc.hpp"
 
 //
 // Keyboard controls

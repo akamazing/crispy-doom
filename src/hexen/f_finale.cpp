@@ -17,15 +17,15 @@
 
 // HEADER FILES ------------------------------------------------------------
 
-#include "h2def.h"
-#include "i_system.h"
-#include "i_video.h"
-#include "p_local.h"
-#include "s_sound.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "i_video.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
 #include <ctype.h>
-#include "v_video.h"
-#include "i_swap.h"
-#include "am_map.h"
+#include "v_video.hpp"
+#include "i_swap.hpp"
+#include "am_map.hpp"
 
 
 // MACROS ------------------------------------------------------------------

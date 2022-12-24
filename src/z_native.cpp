@@ -23,9 +23,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "z_zone.h"
-#include "i_system.h"
-#include "doomtype.h"
+#include "z_zone.hpp"
+#include "i_system.hpp"
+#include "doomtype.hpp"
 
 #define ZONEID	0x1d4a11
 

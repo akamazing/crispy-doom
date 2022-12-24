@@ -18,10 +18,10 @@
 //
 
 
-#include "z_zone.h"
-#include "p_local.h"
+#include "z_zone.hpp"
+#include "p_local.hpp"
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 
 int leveltime;

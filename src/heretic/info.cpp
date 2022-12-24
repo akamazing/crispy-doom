@@ -13,8 +13,8 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
-#include "doomdef.h"
-#include "p_action.h"
+#include "doomdef.hpp"
+#include "p_action.hpp"
 
 const char *sprnames[] = {
     "IMPX","ACLO","PTN1","SHLD","SHD2","BAGH","SPMP","INVS","PTN2","SOAR",

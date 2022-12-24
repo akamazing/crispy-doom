@@ -20,9 +20,9 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "i_glob.h"
-#include "m_misc.h"
-#include "config.h"
+#include "i_glob.hpp"
+#include "m_misc.hpp"
+#include "config.hpp"
 
 #if defined(_MSC_VER)
 // For Visual C++, we need to include the win_opendir module.

@@ -17,11 +17,11 @@
 
 #include <stdlib.h>
 
-#include "m_config.h"
-#include "textscreen.h"
-#include "mode.h"
+#include "m_config.hpp"
+#include "textscreen.hpp"
+#include "mode.hpp"
 
-#include "accessibility.h"
+#include "accessibility.hpp"
 
 #define WINDOW_HELP_URL "https://www.chocolate-doom.org/setup-a11y"
 

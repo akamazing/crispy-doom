@@ -19,22 +19,22 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#include "deh_str.h"
-#include "doomdef.h"
-#include "doomkeys.h"
-#include "i_input.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "r_local.h"
-#include "s_sound.h"
-#include "v_video.h"
-#include "am_map.h"
-#include "v_trans.h" // [crispy] dp_translation
+#include "deh_str.hpp"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
+#include "i_input.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "r_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
+#include "am_map.hpp"
+#include "v_trans.hpp" // [crispy] dp_translation
 
-#include "crispy.h"
+#include "crispy.hpp"
 
 // Macros
 

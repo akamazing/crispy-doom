@@ -17,13 +17,13 @@
 
 // HEADER FILES ------------------------------------------------------------
 
-#include "h2def.h"
-#include "m_misc.h"
-#include "m_random.h"
-#include "s_sound.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "p_local.h"
+#include "h2def.hpp"
+#include "m_misc.hpp"
+#include "m_random.hpp"
+#include "s_sound.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "p_local.hpp"
 
 // MACROS ------------------------------------------------------------------
 

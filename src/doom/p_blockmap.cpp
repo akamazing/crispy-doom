@@ -19,9 +19,9 @@
 //
 
 #include <stdlib.h>
-#include "i_system.h"
-#include "p_local.h"
-#include "z_zone.h"
+#include "i_system.hpp"
+#include "p_local.hpp"
+#include "z_zone.hpp"
 
 // [crispy] taken from mbfsrc/P_SETUP.C:547-707, slightly adapted
 

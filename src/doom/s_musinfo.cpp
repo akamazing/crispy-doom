@@ -25,15 +25,15 @@
 
 #include <string.h>
 #include <stdlib.h>
-#include "doomstat.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "r_defs.h"
-#include "s_sound.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "doomstat.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "r_defs.hpp"
+#include "s_sound.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
-#include "s_musinfo.h"
+#include "s_musinfo.hpp"
 
 // MACROS ------------------------------------------------------------------
 

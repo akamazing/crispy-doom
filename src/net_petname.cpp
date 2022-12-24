@@ -17,8 +17,8 @@
 
 #include <stdlib.h>
 #include <time.h>
-#include "doomtype.h"
-#include "m_misc.h"
+#include "doomtype.hpp"
+#include "m_misc.hpp"
 
 static const char * const adjectives [] = {
     "Grumpy",

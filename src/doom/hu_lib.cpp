@@ -18,17 +18,17 @@
 
 #include <ctype.h>
 
-#include "doomdef.h"
-#include "doomkeys.h"
-#include "doomstat.h"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
+#include "doomstat.hpp"
 
-#include "v_video.h"
-#include "i_swap.h"
+#include "v_video.hpp"
+#include "i_swap.hpp"
 
-#include "hu_lib.h"
-#include "r_local.h"
-#include "r_draw.h"
-#include "v_trans.h" // [crispy] colored HUlib_drawTextLine()
+#include "hu_lib.hpp"
+#include "r_local.hpp"
+#include "r_draw.hpp"
+#include "v_trans.hpp" // [crispy] colored HUlib_drawTextLine()
 
 // boolean : whether the screen is always erased
 #define noterased viewwindowx

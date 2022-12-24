@@ -19,37 +19,37 @@
 #include <ctype.h>
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "doomkeys.h"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
 
-#include "z_zone.h"
+#include "z_zone.hpp"
 
-#include "deh_main.h"
-#include "i_input.h"
-#include "i_swap.h"
-#include "i_video.h"
+#include "deh_main.hpp"
+#include "i_input.hpp"
+#include "i_swap.hpp"
+#include "i_video.hpp"
 
-#include "hu_stuff.h"
-#include "hu_lib.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "m_menu.h"
-#include "w_wad.h"
-#include "m_argv.h" // [crispy] M_ParmExists()
-#include "st_stuff.h" // [crispy] ST_HEIGHT
-#include "p_setup.h" // maplumpinfo
+#include "hu_stuff.hpp"
+#include "hu_lib.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "m_menu.hpp"
+#include "w_wad.hpp"
+#include "m_argv.hpp" // [crispy] M_ParmExists()
+#include "st_stuff.hpp" // [crispy] ST_HEIGHT
+#include "p_setup.hpp" // maplumpinfo
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 // Data.
-#include "dstrings.h"
-#include "sounds.h"
+#include "dstrings.hpp"
+#include "sounds.hpp"
 
-#include "r_state.h" // [crispy] colormaps
-#include "v_video.h" // [crispy] V_DrawPatch() et al.
-#include "v_trans.h" // [crispy] colored kills/items/secret/etc. messages
+#include "r_state.hpp" // [crispy] colormaps
+#include "v_video.hpp" // [crispy] V_DrawPatch() et al.
+#include "v_trans.hpp" // [crispy] colored kills/items/secret/etc. messages
 
 //
 // Locally used constants, shortcuts.

@@ -19,15 +19,15 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "doomtype.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "m_misc.h"
-#include "net_defs.h"
-#include "net_io.h"
-#include "net_packet.h"
-#include "net_sdl.h"
-#include "z_zone.h"
+#include "doomtype.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
+#include "net_defs.hpp"
+#include "net_io.hpp"
+#include "net_packet.hpp"
+#include "net_sdl.hpp"
+#include "z_zone.hpp"
 
 //
 // NETWORKING

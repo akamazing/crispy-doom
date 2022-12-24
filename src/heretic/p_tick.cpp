@@ -16,10 +16,10 @@
 
 // P_tick.c
 
-#include "doomdef.h"
-#include "i_system.h"
-#include "p_local.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "i_system.hpp"
+#include "p_local.hpp"
+#include "v_video.hpp"
 
 int leveltime;
 int TimerGame;

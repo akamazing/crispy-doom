@@ -15,10 +15,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "txt_io.h"
-#include "txt_widget.h"
-#include "txt_gui.h"
-#include "txt_desktop.h"
+#include "txt_io.hpp"
+#include "txt_widget.hpp"
+#include "txt_gui.hpp"
+#include "txt_desktop.hpp"
 
 typedef struct
 {

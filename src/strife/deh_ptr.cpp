@@ -19,12 +19,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomtype.h"
-#include "info.h"
+#include "doomtype.hpp"
+#include "info.hpp"
 
-#include "deh_defs.h"
-#include "deh_io.h"
-#include "deh_main.h"
+#include "deh_defs.hpp"
+#include "deh_io.hpp"
+#include "deh_main.hpp"
 
 static actionf_t codeptrs[NUMSTATES];
 

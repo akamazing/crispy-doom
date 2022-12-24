@@ -18,9 +18,9 @@
 
 #include <stdio.h>
 
-#include "m_misc.h"
-#include "w_file.h"
-#include "z_zone.h"
+#include "m_misc.hpp"
+#include "w_file.hpp"
+#include "z_zone.hpp"
 
 typedef struct
 {

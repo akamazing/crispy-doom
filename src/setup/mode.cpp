@@ -15,30 +15,30 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "config.h"
-#include "textscreen.h"
+#include "config.hpp"
+#include "textscreen.hpp"
 
-#include "doomtype.h"
-#include "d_mode.h"
-#include "d_iwad.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_controls.h"
-#include "m_misc.h"
+#include "doomtype.hpp"
+#include "d_mode.hpp"
+#include "d_iwad.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
 
-#include "accessibility.h"
-#include "compatibility.h"
-#include "display.h"
-#include "joystick.h"
-#include "keyboard.h"
-#include "mouse.h"
-#include "multiplayer.h"
-#include "sound.h"
+#include "accessibility.hpp"
+#include "compatibility.hpp"
+#include "display.hpp"
+#include "joystick.hpp"
+#include "keyboard.hpp"
+#include "mouse.hpp"
+#include "multiplayer.hpp"
+#include "sound.hpp"
 
-#include "mode.h"
+#include "mode.hpp"
 
 GameMission_t gamemission;
 static const iwad_t **iwads;

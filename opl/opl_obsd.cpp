@@ -15,7 +15,7 @@
 //     OPL OpenBSD interface (also NetBSD)
 //
 
-#include "config.h"
+#include "config.hpp"
 
 // OpenBSD has a i386_iopl on i386 and amd64_iopl on x86_64,
 // even though they do the same thing.  Take care of this
@@ -48,9 +48,9 @@
 #include <errno.h>
 #include <unistd.h>
 
-#include "opl.h"
-#include "opl_internal.h"
-#include "opl_timer.h"
+#include "opl.hpp"
+#include "opl_internal.hpp"
+#include "opl_timer.hpp"
 
 static unsigned int opl_port_base;
 

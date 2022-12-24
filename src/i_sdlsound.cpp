@@ -17,29 +17,29 @@
 //	System interface for sound.
 //
 
-#include "config.h"
+#include "config.hpp"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-#include "SDL.h"
-#include "SDL_mixer.h"
+#include "SDL.hpp"
+#include "SDL_mixer.hpp"
 
 #ifdef HAVE_LIBSAMPLERATE
 #include <samplerate.h>
 #endif
 
-#include "deh_str.h"
-#include "i_sound.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "m_argv.h"
-#include "m_misc.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "deh_str.hpp"
+#include "i_sound.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 
 // [crispy] values 3 and higher might reproduce DOOM.EXE more accurately,

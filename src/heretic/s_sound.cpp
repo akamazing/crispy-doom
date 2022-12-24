@@ -16,19 +16,19 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "i_system.h"
-#include "m_random.h"
-#include "sounds.h"
-#include "s_sound.h"
-#include "i_sound.h"
-#include "r_local.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "i_system.hpp"
+#include "m_random.hpp"
+#include "sounds.hpp"
+#include "s_sound.hpp"
+#include "i_sound.hpp"
+#include "r_local.hpp"
+#include "p_local.hpp"
 
-#include "sounds.h"
+#include "sounds.hpp"
 
-#include "w_wad.h"
-#include "z_zone.h"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 /*
 ===============================================================================

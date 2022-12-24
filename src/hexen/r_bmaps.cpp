@@ -20,9 +20,9 @@
 //	Adapted from doomretro/src/r_data.c:97-209
 //
 
-#include "crispy.h"
-#include "h2def.h"
-#include "r_bmaps.h"
+#include "crispy.hpp"
+#include "h2def.hpp"
+#include "r_bmaps.hpp"
 
 // [crispy] brightmap data
 

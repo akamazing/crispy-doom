@@ -15,14 +15,14 @@
 //
 
 
-#include "h2def.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "m_misc.h"
-#include "r_bmaps.h"
-#include "r_local.h"
-#include "p_local.h"
-#include "v_trans.h" // [crispy] color translation and color string tables
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "m_misc.hpp"
+#include "r_bmaps.hpp"
+#include "r_local.hpp"
+#include "p_local.hpp"
+#include "v_trans.hpp" // [crispy] color translation and color string tables
 
 typedef struct
 {

@@ -19,34 +19,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "txt_main.h"
-#include "txt_io.h"
+#include "txt_main.hpp"
+#include "txt_io.hpp"
 
-#include "net_client.h"
+#include "net_client.hpp"
 
-#include "config.h"
-#include "ct_chat.h"
-#include "doomdef.h"
-#include "deh_main.h"
-#include "d_iwad.h"
-#include "i_endoom.h"
-#include "i_input.h"
-#include "i_joystick.h"
-#include "i_sound.h"
-#include "i_swap.h" // [crispy] SHORT()
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "w_main.h"
-#include "v_video.h"
-#include "am_map.h"
-#include "v_trans.h" // [crispy] dp_translation
+#include "config.hpp"
+#include "ct_chat.hpp"
+#include "doomdef.hpp"
+#include "deh_main.hpp"
+#include "d_iwad.hpp"
+#include "i_endoom.hpp"
+#include "i_input.hpp"
+#include "i_joystick.hpp"
+#include "i_sound.hpp"
+#include "i_swap.hpp" // [crispy] SHORT()
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "w_main.hpp"
+#include "v_video.hpp"
+#include "am_map.hpp"
+#include "v_trans.hpp" // [crispy] dp_translation
 
 #include "heretic_icon.c"
 

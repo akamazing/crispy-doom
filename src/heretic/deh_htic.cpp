@@ -19,11 +19,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "deh_defs.h"
-#include "deh_main.h"
-#include "deh_htic.h"
-#include "info.h"
-#include "m_argv.h"
+#include "deh_defs.hpp"
+#include "deh_main.hpp"
+#include "deh_htic.hpp"
+#include "info.hpp"
+#include "m_argv.hpp"
 
 const char *deh_signatures[] =
 {

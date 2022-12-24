@@ -17,22 +17,22 @@
 
 
 
-#include "z_zone.h"
-#include "doomdef.h"
-#include "deh_main.h"
-#include "p_local.h"
-#include "i_system.h"
+#include "z_zone.hpp"
+#include "doomdef.hpp"
+#include "deh_main.hpp"
+#include "p_local.hpp"
+#include "i_system.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 // Data.
-#include "dstrings.h"
-#include "sounds.h"
+#include "dstrings.hpp"
+#include "sounds.hpp"
 
 #if 0
 //

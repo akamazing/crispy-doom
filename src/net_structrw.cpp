@@ -18,11 +18,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomtype.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "net_packet.h"
-#include "net_structrw.h"
+#include "doomtype.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "net_packet.hpp"
+#include "net_structrw.hpp"
 
 // String names for the enum values in net_protocol_t, which are what is
 // sent over the wire. Every enum value must have an entry in this list.

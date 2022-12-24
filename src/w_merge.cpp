@@ -23,13 +23,13 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "doomtype.h"
-#include "i_swap.h" // [crispy] LONG()
-#include "i_system.h"
-#include "m_misc.h"
-#include "w_merge.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "doomtype.hpp"
+#include "i_swap.hpp" // [crispy] LONG()
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "w_merge.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 typedef enum 
 { 

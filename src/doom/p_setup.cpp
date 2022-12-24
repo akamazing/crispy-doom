@@ -22,28 +22,28 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include "z_zone.h"
+#include "z_zone.hpp"
 
-#include "deh_main.h"
-#include "i_swap.h"
-#include "m_argv.h"
-#include "m_bbox.h"
-#include "m_misc.h" // [crispy] M_StringJoin()
+#include "deh_main.hpp"
+#include "i_swap.hpp"
+#include "m_argv.hpp"
+#include "m_bbox.hpp"
+#include "m_misc.hpp" // [crispy] M_StringJoin()
 
-#include "g_game.h"
+#include "g_game.hpp"
 
-#include "i_system.h"
-#include "w_wad.h"
+#include "i_system.hpp"
+#include "w_wad.hpp"
 
-#include "doomdef.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "p_local.hpp"
 
-#include "s_sound.h"
-#include "s_musinfo.h" // [crispy] S_ParseMusInfo()
+#include "s_sound.hpp"
+#include "s_musinfo.hpp" // [crispy] S_ParseMusInfo()
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
-#include "p_extnodes.h" // [crispy] support extended node formats
+#include "p_extnodes.hpp" // [crispy] support extended node formats
 
 void	P_SpawnMapThing (mapthing_t*	mthing);
 

@@ -14,12 +14,12 @@
 // GNU General Public License for more details.
 //
 
-#include "doomdef.h"
-#include "deh_str.h"
-#include "i_system.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
+#include "i_system.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
 
 //==================================================================
 //

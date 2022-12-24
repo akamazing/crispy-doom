@@ -19,14 +19,14 @@
 
 #include <math.h>
 #include <stdlib.h>
-#include "h2def.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "m_bbox.h"
-#include "m_misc.h"
-#include "i_swap.h"
-#include "s_sound.h"
-#include "p_local.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "m_bbox.hpp"
+#include "m_misc.hpp"
+#include "i_swap.hpp"
+#include "s_sound.hpp"
+#include "p_local.hpp"
 
 // MACROS ------------------------------------------------------------------
 

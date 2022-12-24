@@ -24,23 +24,23 @@
 #include <ctype.h>
 
 // Functions.
-#include "deh_main.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "z_zone.h"
-#include "v_video.h"
-#include "w_wad.h"
-#include "s_sound.h"
+#include "deh_main.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "z_zone.hpp"
+#include "v_video.hpp"
+#include "w_wad.hpp"
+#include "s_sound.hpp"
 
 // Data.
-#include "d_main.h"
-#include "dstrings.h"
-#include "sounds.h"
+#include "d_main.hpp"
+#include "dstrings.hpp"
+#include "sounds.hpp"
 
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
-#include "p_dialog.h" // [STRIFE]
+#include "p_dialog.hpp" // [STRIFE]
 
 typedef enum
 {
@@ -50,9 +50,9 @@ typedef enum
 } finalestage_t;
 
 // ?
-//#include "doomstat.h"
-//#include "r_local.h"
-//#include "f_finale.h"
+//#include "doomstat.hpp"
+//#include "r_local.hpp"
+//#include "f_finale.hpp"
 
 // Stage of animation:
 finalestage_t finalestage;
@@ -517,7 +517,7 @@ void F_Ticker (void)
 
 // haleyjd 09/13/10: Not present in Strife: Cast drawing functions
 
-#include "hu_stuff.h"
+#include "hu_stuff.hpp"
 
 /*
 //

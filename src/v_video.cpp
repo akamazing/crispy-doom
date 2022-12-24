@@ -19,32 +19,32 @@
 //	Functions to blit a block to the screen.
 //
 
-#include "SDL_version.h" // [crispy]
+#include "SDL_version.hpp" // [crispy]
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
 
-#include "i_system.h"
+#include "i_system.hpp"
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "deh_str.h"
-#include "i_input.h"
-#include "i_swap.h"
-#include "i_video.h"
-#include "m_bbox.h"
-#include "m_misc.h"
+#include "deh_str.hpp"
+#include "i_input.hpp"
+#include "i_swap.hpp"
+#include "i_video.hpp"
+#include "m_bbox.hpp"
+#include "m_misc.hpp"
 #ifdef CRISPY_TRUECOLOR
-#include "v_trans.h"
+#include "v_trans.hpp"
 #endif
-#include "v_video.h"
-#include "w_wad.h"
-#include "z_zone.h"
-#include "crispy.h"
+#include "v_video.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
+#include "crispy.hpp"
 
-#include "config.h"
+#include "config.hpp"
 #ifdef HAVE_LIBPNG
 #include <png.h>
 #endif

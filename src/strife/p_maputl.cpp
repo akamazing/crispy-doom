@@ -25,15 +25,15 @@
 #include <stdlib.h>
 
 
-#include "m_bbox.h"
+#include "m_bbox.hpp"
 
-#include "doomdef.h"
-#include "doomstat.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
+#include "p_local.hpp"
 
 
 // State.
-#include "r_state.h"
+#include "r_state.hpp"
 
 //
 // P_AproxDistance

@@ -21,15 +21,15 @@
 ========================
 */
 
-#include "doomdef.h"
-#include "deh_str.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "i_video.h"
-#include "v_video.h"
-#include "am_map.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "i_video.hpp"
+#include "v_video.hpp"
+#include "am_map.hpp"
 
 
 typedef enum

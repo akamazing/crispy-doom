@@ -21,28 +21,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "m_random.h"
-#include "i_system.h"
-#include "doomdef.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "g_game.h"
-#include "z_zone.h"     // villsa [STRIFE]
+#include "m_random.hpp"
+#include "i_system.hpp"
+#include "doomdef.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "g_game.hpp"
+#include "z_zone.hpp"     // villsa [STRIFE]
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 // [STRIFE] Dialog / Inventory
-#include "p_dialog.h"
-#include "deh_str.h"
-#include "w_wad.h"
-#include "f_finale.h"
-#include "p_inter.h"
+#include "p_dialog.hpp"
+#include "deh_str.hpp"
+#include "w_wad.hpp"
+#include "f_finale.hpp"
+#include "p_inter.hpp"
 
 // Forward Declarations:
 void A_RandomWalk(mobj_t *);

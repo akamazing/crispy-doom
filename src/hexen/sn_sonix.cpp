@@ -18,11 +18,11 @@
 // HEADER FILES ------------------------------------------------------------
 
 #include <string.h>
-#include "m_random.h"
-#include "h2def.h"
-#include "i_system.h"
-#include "i_sound.h"
-#include "s_sound.h"
+#include "m_random.hpp"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "i_sound.hpp"
+#include "s_sound.hpp"
 
 // MACROS ------------------------------------------------------------------
 

@@ -15,9 +15,9 @@
 //
 
 
-#include "h2def.h"
-#include "m_random.h"
-#include "p_local.h"
+#include "h2def.hpp"
+#include "m_random.hpp"
+#include "p_local.hpp"
 
 //============================================================================
 //

@@ -16,11 +16,11 @@
 //      Timer functions.
 //
 
-#include "SDL.h"
+#include "SDL.hpp"
 
-#include "i_timer.h"
-#include "m_fixed.h" // [crispy]
-#include "doomtype.h"
+#include "i_timer.hpp"
+#include "m_fixed.hpp" // [crispy]
+#include "doomtype.hpp"
 
 //
 // I_GetTime

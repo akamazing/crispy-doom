@@ -21,61 +21,61 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "doomdef.h" 
-#include "doomkeys.h"
-#include "doomstat.h"
+#include "doomdef.hpp" 
+#include "doomkeys.hpp"
+#include "doomstat.hpp"
 
-#include "deh_main.h"
-#include "deh_misc.h"
-#include "deh_bexpars.h" // [crispy] bex_pars[]
+#include "deh_main.hpp"
+#include "deh_misc.hpp"
+#include "deh_bexpars.hpp" // [crispy] bex_pars[]
 
-#include "z_zone.h"
-#include "f_finale.h"
-#include "m_argv.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "m_menu.h"
-#include "m_random.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_input.h"
-#include "i_swap.h"
-#include "i_video.h"
+#include "z_zone.hpp"
+#include "f_finale.hpp"
+#include "m_argv.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "m_menu.hpp"
+#include "m_random.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_input.hpp"
+#include "i_swap.hpp"
+#include "i_video.hpp"
 
-#include "p_setup.h"
-#include "p_saveg.h"
-#include "p_extsaveg.h"
-#include "p_tick.h"
+#include "p_setup.hpp"
+#include "p_saveg.hpp"
+#include "p_extsaveg.hpp"
+#include "p_tick.hpp"
 
-#include "d_main.h"
+#include "d_main.hpp"
 
-#include "wi_stuff.h"
-#include "hu_stuff.h"
-#include "st_stuff.h"
-#include "am_map.h"
-#include "statdump.h"
+#include "wi_stuff.hpp"
+#include "hu_stuff.hpp"
+#include "st_stuff.hpp"
+#include "am_map.hpp"
+#include "statdump.hpp"
 
 // Needs access to LFB.
-#include "v_video.h"
+#include "v_video.hpp"
 
-#include "w_wad.h"
+#include "w_wad.hpp"
 
-#include "p_local.h" 
+#include "p_local.hpp" 
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 // Data.
-#include "dstrings.h"
-#include "sounds.h"
+#include "dstrings.hpp"
+#include "sounds.hpp"
 
 // SKY handling - still the wrong place.
-#include "r_data.h"
-#include "r_sky.h"
+#include "r_data.hpp"
+#include "r_sky.hpp"
 
 
 
-#include "g_game.h"
-#include "v_trans.h" // [crispy] colored "always run" message
+#include "g_game.hpp"
+#include "v_trans.hpp" // [crispy] colored "always run" message
 
 
 #define SAVEGAMESIZE	0x2c000

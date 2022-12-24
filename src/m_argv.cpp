@@ -21,13 +21,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL_stdinc.h"
+#include "SDL_stdinc.hpp"
 
-#include "doomtype.h"
-#include "d_iwad.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "m_argv.h"  // haleyjd 20110212: warning fix
+#include "doomtype.hpp"
+#include "d_iwad.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "m_argv.hpp"  // haleyjd 20110212: warning fix
 
 int		myargc;
 char**		myargv;

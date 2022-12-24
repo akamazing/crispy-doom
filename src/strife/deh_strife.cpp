@@ -16,8 +16,8 @@
 //
 
 #include <stdlib.h>
-#include "deh_defs.h"
-#include "deh_main.h"
+#include "deh_defs.hpp"
+#include "deh_main.hpp"
 
 const char *deh_signatures[] =
 {

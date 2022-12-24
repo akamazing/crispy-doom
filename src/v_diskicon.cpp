@@ -16,16 +16,16 @@
 //	Disk load indicator.
 //
 
-#include "doomtype.h"
-#include "deh_str.h"
-#include "i_swap.h"
-#include "i_video.h"
-#include "m_argv.h"
-#include "v_video.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "doomtype.hpp"
+#include "deh_str.hpp"
+#include "i_swap.hpp"
+#include "i_video.hpp"
+#include "m_argv.hpp"
+#include "v_video.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
-#include "v_diskicon.h"
+#include "v_diskicon.hpp"
 
 // Only display the disk icon if more then this much bytes have been read
 // during the previous tic.

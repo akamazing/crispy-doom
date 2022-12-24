@@ -18,11 +18,11 @@
 
 #include <stdio.h>
 
-#include "SDL.h"
+#include "SDL.hpp"
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "i_cdmus.h"
+#include "i_cdmus.hpp"
 
 int cd_Error;
 

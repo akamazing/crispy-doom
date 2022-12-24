@@ -16,15 +16,15 @@
 
 #include <ctype.h>
 
-#include "h2def.h"
-#include "s_sound.h"
-#include "i_system.h"
-#include "i_video.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "v_video.h"
-#include "i_swap.h"
-#include "am_map.h"
+#include "h2def.hpp"
+#include "s_sound.hpp"
+#include "i_system.hpp"
+#include "i_video.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "v_video.hpp"
+#include "i_swap.hpp"
+#include "am_map.hpp"
 
 
 // MACROS ------------------------------------------------------------------

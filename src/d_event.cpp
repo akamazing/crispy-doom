@@ -20,7 +20,7 @@
 //
 
 #include <stdlib.h>
-#include "d_event.h"
+#include "d_event.hpp"
 
 #define MAXEVENTS 64
 

@@ -18,11 +18,11 @@
 //
 
 
-#include "z_zone.h"
-#include "p_local.h"
-#include "s_musinfo.h" // [crispy] T_MAPMusic()
+#include "z_zone.hpp"
+#include "p_local.hpp"
+#include "s_musinfo.hpp" // [crispy] T_MAPMusic()
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 
 int	leveltime;

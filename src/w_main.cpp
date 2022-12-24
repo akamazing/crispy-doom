@@ -18,15 +18,15 @@
 
 #include <stdlib.h>
 
-#include "config.h"
-#include "d_iwad.h"
-#include "i_glob.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "w_main.h"
-#include "w_merge.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "config.hpp"
+#include "d_iwad.hpp"
+#include "i_glob.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "w_main.hpp"
+#include "w_merge.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 // Parse the command line, merging WAD files that are sppecified.
 // Returns true if at least one file was added.

@@ -26,19 +26,19 @@
 #include <math.h>
 
 
-#include "doomdef.h"
-#include "doomstat.h" // [AM] leveltime, paused, menuactive
-#include "d_loop.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp" // [AM] leveltime, paused, menuactive
+#include "d_loop.hpp"
 
-#include "m_bbox.h"
-#include "m_menu.h"
+#include "m_bbox.hpp"
+#include "m_menu.hpp"
 
-#include "i_system.h" // [crispy] I_Realloc()
-#include "p_local.h" // [crispy] MLOOKUNIT
-#include "r_local.h"
-#include "r_sky.h"
-#include "st_stuff.h" // [crispy] ST_refreshBackground()
-#include "a11y.h" // [crispy] A11Y
+#include "i_system.hpp" // [crispy] I_Realloc()
+#include "p_local.hpp" // [crispy] MLOOKUNIT
+#include "r_local.hpp"
+#include "r_sky.hpp"
+#include "st_stuff.hpp" // [crispy] ST_refreshBackground()
+#include "a11y.hpp" // [crispy] A11Y
 
 
 

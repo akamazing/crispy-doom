@@ -19,11 +19,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "deh_defs.h"
-#include "deh_io.h"
-#include "deh_main.h"
+#include "deh_defs.hpp"
+#include "deh_io.hpp"
+#include "deh_main.hpp"
 
-#include "dstrings.h"
+#include "dstrings.hpp"
 
 typedef struct {
     const char *macro;

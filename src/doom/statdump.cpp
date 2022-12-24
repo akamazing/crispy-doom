@@ -23,12 +23,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "d_player.h"
-#include "d_mode.h"
-#include "m_argv.h"
-#include "m_misc.h"
+#include "d_player.hpp"
+#include "d_mode.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
 
-#include "statdump.h"
+#include "statdump.hpp"
 
 /* Par times for E1M1-E1M9. */
 static const int doom1_par_times[] =

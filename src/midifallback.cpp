@@ -17,9 +17,9 @@
 
 #ifdef _WIN32
 
-#include "doomtype.h"
-#include "midifile.h"
-#include "midifallback.h"
+#include "doomtype.hpp"
+#include "midifile.hpp"
+#include "midifallback.hpp"
 
 static const byte drums_table[128] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,

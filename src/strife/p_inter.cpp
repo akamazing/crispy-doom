@@ -17,29 +17,29 @@
 //
 
 // Data.
-#include "doomdef.h"
-#include "dstrings.h"
-#include "sounds.h"
-#include "deh_main.h"
-#include "deh_misc.h"
-#include "doomstat.h"
-#include "m_misc.h"
-#include "m_random.h"
-#include "i_system.h"
-#include "am_map.h"
-#include "p_local.h"
-#include "p_dialog.h"   // villsa [STRIFE]
-#include "s_sound.h"
-#include "p_inter.h"
+#include "doomdef.hpp"
+#include "dstrings.hpp"
+#include "sounds.hpp"
+#include "deh_main.hpp"
+#include "deh_misc.hpp"
+#include "doomstat.hpp"
+#include "m_misc.hpp"
+#include "m_random.hpp"
+#include "i_system.hpp"
+#include "am_map.hpp"
+#include "p_local.hpp"
+#include "p_dialog.hpp"   // villsa [STRIFE]
+#include "s_sound.hpp"
+#include "p_inter.hpp"
 
-#include "hu_stuff.h"   // villsa [STRIFE]
-#include "z_zone.h"     // villsa [STRIFE]
+#include "hu_stuff.hpp"   // villsa [STRIFE]
+#include "z_zone.hpp"     // villsa [STRIFE]
 
 // haleyjd [STRIFE]
-#include "w_wad.h"
-#include "p_pspr.h"
-#include "p_dialog.h"
-#include "f_finale.h"
+#include "w_wad.hpp"
+#include "p_pspr.hpp"
+#include "p_dialog.hpp"
+#include "f_finale.hpp"
 
 
 #define BONUSADD    6

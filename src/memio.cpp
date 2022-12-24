@@ -20,9 +20,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "memio.h"
+#include "memio.hpp"
 
-#include "z_zone.h"
+#include "z_zone.hpp"
 
 typedef enum {
 	MODE_READ,

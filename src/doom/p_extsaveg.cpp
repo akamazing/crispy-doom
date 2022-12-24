@@ -20,17 +20,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "config.h"
-#include "doomstat.h"
-#include "doomtype.h"
-#include "m_misc.h"
-#include "p_extsaveg.h"
-#include "p_local.h"
-#include "p_saveg.h"
-#include "p_setup.h"
-#include "s_sound.h"
-#include "s_musinfo.h"
-#include "z_zone.h"
+#include "config.hpp"
+#include "doomstat.hpp"
+#include "doomtype.hpp"
+#include "m_misc.hpp"
+#include "p_extsaveg.hpp"
+#include "p_local.hpp"
+#include "p_saveg.hpp"
+#include "p_setup.hpp"
+#include "s_sound.hpp"
+#include "s_musinfo.hpp"
+#include "z_zone.hpp"
 
 #define MAX_LINE_LEN 260
 #define MAX_STRING_LEN 80

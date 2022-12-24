@@ -18,12 +18,12 @@
 
 #include <stdio.h>
 
-#include "config.h"
+#include "config.hpp"
 
-#include "doomtype.h"
-#include "m_argv.h"
+#include "doomtype.hpp"
+#include "m_argv.hpp"
 
-#include "w_file.h"
+#include "w_file.hpp"
 
 
 static wad_file_class_t *wad_file_classes[] = 

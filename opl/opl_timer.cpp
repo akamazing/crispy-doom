@@ -17,10 +17,10 @@
 //     waking up to invoke callbacks set using OPL_Timer_SetCallback.
 //
 
-#include "SDL.h"
+#include "SDL.hpp"
 
-#include "opl_timer.h"
-#include "opl_queue.h"
+#include "opl_timer.hpp"
+#include "opl_queue.hpp"
 
 typedef enum
 {

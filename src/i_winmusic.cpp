@@ -25,14 +25,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "doomtype.h"
-#include "i_sound.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "memio.h"
-#include "mus2mid.h"
-#include "midifile.h"
-#include "midifallback.h"
+#include "doomtype.hpp"
+#include "i_sound.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "memio.hpp"
+#include "mus2mid.hpp"
+#include "midifile.hpp"
+#include "midifallback.hpp"
 
 char *winmm_midi_device = NULL;
 int winmm_reverb_level = -1;

@@ -20,21 +20,21 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "d_event.h"
-#include "p_local.h"
-#include "sounds.h"     // villsa [STRIFE]
-#include "p_dialog.h"   // villsa [STRIFE]
-#include "d_main.h"     // villsa [STRIFE]
-#include "doomstat.h"
-#include "deh_str.h"    // haleyjd [STRIFE]
-#include "z_zone.h"
-#include "w_wad.h"
-#include "p_pspr.h"
-#include "m_misc.h"
-#include "m_random.h"
-#include "s_sound.h"
-#include "p_inter.h"
+#include "doomdef.hpp"
+#include "d_event.hpp"
+#include "p_local.hpp"
+#include "sounds.hpp"     // villsa [STRIFE]
+#include "p_dialog.hpp"   // villsa [STRIFE]
+#include "d_main.hpp"     // villsa [STRIFE]
+#include "doomstat.hpp"
+#include "deh_str.hpp"    // haleyjd [STRIFE]
+#include "z_zone.hpp"
+#include "w_wad.hpp"
+#include "p_pspr.hpp"
+#include "m_misc.hpp"
+#include "m_random.hpp"
+#include "s_sound.hpp"
+#include "p_inter.hpp"
 
 
 

@@ -18,17 +18,17 @@
 
 #include <stdio.h>
 
-#include "i_system.h"
-#include "z_zone.h"
-#include "m_random.h"
-#include "doomdef.h"
-#include "p_local.h"
-#include "sounds.h"
-#include "st_stuff.h"
-#include "hu_stuff.h"
-#include "s_sound.h"
-#include "doomstat.h"
-#include "d_main.h"     // villsa [STRIFE]
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "m_random.hpp"
+#include "doomdef.hpp"
+#include "p_local.hpp"
+#include "sounds.hpp"
+#include "st_stuff.hpp"
+#include "hu_stuff.hpp"
+#include "s_sound.hpp"
+#include "doomstat.hpp"
+#include "d_main.hpp"     // villsa [STRIFE]
 
 
 void G_PlayerReborn (int player);

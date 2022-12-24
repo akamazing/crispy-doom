@@ -18,14 +18,14 @@
 #include <stdlib.h>
 #include <stdarg.h>
 
-#include "config.h"
+#include "config.hpp"
 
-#include "m_argv.h"
-#include "net_defs.h"
+#include "m_argv.hpp"
+#include "net_defs.hpp"
 
-#include "net_dedicated.h"
-#include "net_server.h"
-#include "z_zone.h"
+#include "net_dedicated.hpp"
+#include "net_server.hpp"
+#include "z_zone.hpp"
 
 void NET_CL_Run(void)
 {

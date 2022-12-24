@@ -16,28 +16,28 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "config.h"
-#include "textscreen.h"
+#include "config.hpp"
+#include "textscreen.hpp"
 
-#include "execute.h"
+#include "execute.hpp"
 
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "z_zone.h"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "z_zone.hpp"
 
 #include "setup_icon.c"
-#include "mode.h"
+#include "mode.hpp"
 
-#include "accessibility.h"
-#include "compatibility.h"
-#include "display.h"
-#include "joystick.h"
-#include "keyboard.h"
-#include "mouse.h"
-#include "multiplayer.h"
-#include "sound.h"
+#include "accessibility.hpp"
+#include "compatibility.hpp"
+#include "display.hpp"
+#include "joystick.hpp"
+#include "keyboard.hpp"
+#include "mouse.hpp"
+#include "multiplayer.hpp"
+#include "sound.hpp"
 
 #define WINDOW_HELP_URL "https://www.chocolate-doom.org/setup"
 

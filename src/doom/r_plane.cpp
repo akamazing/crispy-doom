@@ -22,17 +22,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "i_system.h"
-#include "z_zone.h"
-#include "w_wad.h"
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "w_wad.hpp"
 
-#include "doomdef.h"
-#include "doomstat.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
 
-#include "r_local.h"
-#include "r_sky.h"
-#include "r_bmaps.h" // [crispy] R_BrightmapForTexName()
-#include "r_swirl.h" // [crispy] R_DistortedFlat()
+#include "r_local.hpp"
+#include "r_sky.hpp"
+#include "r_bmaps.hpp" // [crispy] R_BrightmapForTexName()
+#include "r_swirl.hpp" // [crispy] R_DistortedFlat()
 
 
 

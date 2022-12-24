@@ -15,7 +15,7 @@
 //     OPL Win32 native interface.
 //
 
-#include "config.h"
+#include "config.hpp"
 
 #ifdef _WIN32
 
@@ -24,11 +24,11 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-#include "opl.h"
-#include "opl_internal.h"
-#include "opl_timer.h"
+#include "opl.hpp"
+#include "opl_internal.hpp"
+#include "opl_timer.hpp"
 
-#include "ioperm_sys.h"
+#include "ioperm_sys.hpp"
 
 static unsigned int opl_port_base;
 

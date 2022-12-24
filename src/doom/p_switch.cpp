@@ -19,24 +19,24 @@
 
 #include <stdio.h>
 
-#include "i_system.h"
-#include "deh_main.h"
-#include "doomdef.h"
-#include "p_local.h"
-#include "i_swap.h" // [crispy] SHORT()
-#include "w_wad.h" // [crispy] W_CheckNumForName()
-#include "z_zone.h" // [crispy] PU_STATIC
+#include "i_system.hpp"
+#include "deh_main.hpp"
+#include "doomdef.hpp"
+#include "p_local.hpp"
+#include "i_swap.hpp" // [crispy] SHORT()
+#include "w_wad.hpp" // [crispy] W_CheckNumForName()
+#include "z_zone.hpp" // [crispy] PU_STATIC
 
-#include "g_game.h"
+#include "g_game.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 
 //

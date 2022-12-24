@@ -20,11 +20,11 @@
 #include <string.h>
 #include <stdarg.h>
 
-#include "doomtype.h"
-#include "deh_str.h"
-#include "m_misc.h"
+#include "doomtype.hpp"
+#include "deh_str.hpp"
+#include "m_misc.hpp"
 
-#include "z_zone.h"
+#include "z_zone.hpp"
 
 typedef struct 
 {

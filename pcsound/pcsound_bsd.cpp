@@ -16,7 +16,7 @@
 //    (Should be NetBSD as well, but untested).
 //
 
-#include "config.h"
+#include "config.hpp"
 
 // OpenBSD/NetBSD:
 
@@ -47,11 +47,11 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-#include "SDL.h"
-#include "SDL_thread.h"
+#include "SDL.hpp"
+#include "SDL_thread.hpp"
 
-#include "pcsound.h"
-#include "pcsound_internal.h"
+#include "pcsound.hpp"
+#include "pcsound_internal.hpp"
 
 #define SPEAKER_DEVICE "/dev/speaker"
 

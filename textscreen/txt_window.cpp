@@ -17,15 +17,15 @@
 #include <stdarg.h>
 #include <string.h>
 
-#include "doomkeys.h"
+#include "doomkeys.hpp"
 
-#include "txt_label.h"
-#include "txt_desktop.h"
-#include "txt_gui.h"
-#include "txt_io.h"
-#include "txt_main.h"
-#include "txt_separator.h"
-#include "txt_window.h"
+#include "txt_label.hpp"
+#include "txt_desktop.hpp"
+#include "txt_gui.hpp"
+#include "txt_io.hpp"
+#include "txt_main.hpp"
+#include "txt_separator.hpp"
+#include "txt_window.hpp"
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN

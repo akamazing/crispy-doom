@@ -18,11 +18,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "SDL.h"
-#include "SDL_mixer.h"
+#include "SDL.hpp"
+#include "SDL_mixer.hpp"
 
-#include "pcsound.h"
-#include "pcsound_internal.h"
+#include "pcsound.hpp"
+#include "pcsound_internal.hpp"
 
 
 #ifndef DISABLE_SDL2MIXER

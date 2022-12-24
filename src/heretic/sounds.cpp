@@ -17,9 +17,9 @@
 
 // sounds.c
 
-#include "doomdef.h"
-#include "i_sound.h"
-#include "sounds.h"
+#include "doomdef.hpp"
+#include "i_sound.hpp"
+#include "sounds.hpp"
 
 // Music info
 

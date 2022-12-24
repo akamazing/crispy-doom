@@ -19,9 +19,9 @@
 
 #include <string.h>
 #include <stdlib.h>
-#include "h2def.h"
-#include "i_system.h"
-#include "m_misc.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
 
 // MACROS ------------------------------------------------------------------
 

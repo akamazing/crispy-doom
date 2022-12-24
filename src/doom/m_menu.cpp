@@ -22,47 +22,47 @@
 #include <ctype.h>
 
 
-#include "doomdef.h"
-#include "doomkeys.h"
-#include "dstrings.h"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
+#include "dstrings.hpp"
 
-#include "d_main.h"
-#include "deh_main.h"
+#include "d_main.hpp"
+#include "deh_main.hpp"
 
-#include "i_input.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
-#include "m_misc.h"
-#include "v_video.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "i_input.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
+#include "m_misc.hpp"
+#include "v_video.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
-#include "r_local.h"
+#include "r_local.hpp"
 
 
-#include "hu_stuff.h"
+#include "hu_stuff.hpp"
 
-#include "g_game.h"
+#include "g_game.hpp"
 
-#include "m_argv.h"
-#include "m_controls.h"
-#include "p_saveg.h"
-#include "p_setup.h"
-#include "p_extsaveg.h" // [crispy] savewadfilename
+#include "m_argv.hpp"
+#include "m_controls.hpp"
+#include "p_saveg.hpp"
+#include "p_setup.hpp"
+#include "p_extsaveg.hpp" // [crispy] savewadfilename
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
-#include "m_menu.h"
-#include "m_crispy.h" // [crispy] Crispness menu
+#include "m_menu.hpp"
+#include "m_crispy.hpp" // [crispy] Crispness menu
 
-#include "v_trans.h" // [crispy] colored "invert mouse" message
+#include "v_trans.hpp" // [crispy] colored "invert mouse" message
 
 //
 // defaulted values
@@ -1420,7 +1420,7 @@ static void M_DrawMouse(void)
 }
 
 // [crispy] Crispness menu
-#include "m_background.h"
+#include "m_background.hpp"
 static void M_DrawCrispnessBackground(void)
 {
 	const byte *src = crispness_background;

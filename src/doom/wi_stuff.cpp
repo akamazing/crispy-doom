@@ -19,33 +19,33 @@
 
 #include <stdio.h>
 
-#include "z_zone.h"
+#include "z_zone.hpp"
 
-#include "m_misc.h"
-#include "m_random.h"
+#include "m_misc.hpp"
+#include "m_random.hpp"
 
-#include "deh_main.h"
-#include "deh_bexpars.h" // [crispy] bex_pars[]
-#include "i_swap.h"
-#include "i_system.h"
+#include "deh_main.hpp"
+#include "deh_bexpars.hpp" // [crispy] bex_pars[]
+#include "i_swap.hpp"
+#include "i_system.hpp"
 
-#include "w_wad.h"
+#include "w_wad.hpp"
 
-#include "g_game.h"
+#include "g_game.hpp"
 
-#include "r_local.h"
-#include "s_sound.h"
+#include "r_local.hpp"
+#include "s_sound.hpp"
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 // Needs access to LFB.
-#include "v_video.h"
+#include "v_video.hpp"
 
-#include "st_stuff.h" // [crispy] ST_DrawDemoTimer()
-#include "wi_stuff.h"
+#include "st_stuff.hpp" // [crispy] ST_DrawDemoTimer()
+#include "wi_stuff.hpp"
 
 //
 // Data needed to add patches to full screen intermission pics.

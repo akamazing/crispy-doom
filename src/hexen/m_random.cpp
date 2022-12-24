@@ -17,7 +17,7 @@
 
 // HEADER FILES ------------------------------------------------------------
 
-#include "m_random.h"
+#include "m_random.hpp"
 
 // This is the new flat distribution table
 

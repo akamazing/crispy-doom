@@ -17,8 +17,8 @@
 
 // HEADER FILES ------------------------------------------------------------
 
-#include "h2def.h"
-#include "p_local.h"
+#include "h2def.hpp"
+#include "p_local.hpp"
 
 // MACROS ------------------------------------------------------------------
 

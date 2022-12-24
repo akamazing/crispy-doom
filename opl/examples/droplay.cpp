@@ -21,9 +21,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL.h"
+#include "SDL.hpp"
 
-#include "opl.h"
+#include "opl.hpp"
 
 #define HEADER_STRING "DBRAWOPL"
 #define ADLIB_PORT 0x388

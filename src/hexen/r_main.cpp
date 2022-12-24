@@ -16,10 +16,10 @@
 
 
 #include <math.h>
-#include "m_random.h"
-#include "h2def.h"
-#include "m_bbox.h"
-#include "r_local.h"
+#include "m_random.hpp"
+#include "h2def.hpp"
+#include "m_bbox.hpp"
+#include "r_local.hpp"
 
 int viewangleoffset;
 

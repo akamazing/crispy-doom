@@ -20,14 +20,14 @@
 
 #include <stdarg.h>
 
-#include "config.h"
+#include "config.hpp"
 
-#include "h2def.h"
-#include "i_system.h"
-#include "i_video.h"
-#include "i_videohr.h"
-#include "s_sound.h"
-#include "st_start.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "i_video.hpp"
+#include "i_videohr.hpp"
+#include "s_sound.hpp"
+#include "st_start.hpp"
 
 
 // MACROS ------------------------------------------------------------------

@@ -14,7 +14,7 @@
 // GNU General Public License for more details.
 //
 
-#include "m_random.h"
+#include "m_random.hpp"
 
 /*
 ===============

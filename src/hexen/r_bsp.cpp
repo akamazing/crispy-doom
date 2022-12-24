@@ -15,10 +15,10 @@
 //
 
 
-#include "h2def.h"
-#include "i_system.h"
-#include "m_bbox.h"
-#include "r_local.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "m_bbox.hpp"
+#include "r_local.hpp"
 
 seg_t *curline;
 side_t *sidedef;

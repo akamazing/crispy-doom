@@ -24,14 +24,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "i_system.h"
+#include "i_system.hpp"
 
-#include "doomdef.h"
-#include "doomstat.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
 
-#include "r_local.h"
-#include "r_sky.h"
-#include "r_bmaps.h" // [crispy] brightmaps
+#include "r_local.hpp"
+#include "r_sky.hpp"
+#include "r_bmaps.hpp" // [crispy] brightmaps
 
 
 // OPTIMIZE: closed two sided lines as single sided

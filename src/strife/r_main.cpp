@@ -26,15 +26,15 @@
 #include <math.h>
 
 
-#include "doomdef.h"
-#include "doomstat.h"   // villsa [STRIFE]
-#include "d_main.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"   // villsa [STRIFE]
+#include "d_main.hpp"
 
-#include "m_bbox.h"
-#include "m_menu.h"
+#include "m_bbox.hpp"
+#include "m_menu.hpp"
 
-#include "r_local.h"
-#include "r_sky.h"
+#include "r_local.hpp"
+#include "r_sky.hpp"
 
 
 

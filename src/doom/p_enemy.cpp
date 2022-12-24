@@ -21,22 +21,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "m_random.h"
-#include "i_system.h"
+#include "m_random.hpp"
+#include "i_system.hpp"
 
-#include "doomdef.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "p_local.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
-#include "g_game.h"
+#include "g_game.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 
 

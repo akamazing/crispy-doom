@@ -18,7 +18,7 @@
 
 
 
-#include "dstrings.h"
+#include "dstrings.hpp"
 
 const char *doom1_endmsg[] =
 {

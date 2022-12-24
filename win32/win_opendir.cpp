@@ -44,7 +44,7 @@
 #define SUFFIX	_T("*")
 #define	SLASH	_T("\\")
 
-#include "win_opendir.h"
+#include "win_opendir.hpp"
 
 //
 // opendir

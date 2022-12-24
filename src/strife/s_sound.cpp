@@ -19,24 +19,24 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#include "i_sound.h"
-#include "i_system.h"
+#include "i_sound.hpp"
+#include "i_system.hpp"
 
-#include "deh_str.h"
+#include "deh_str.hpp"
 
-#include "doomstat.h"
-#include "doomtype.h"
+#include "doomstat.hpp"
+#include "doomtype.hpp"
 
-#include "sounds.h"
-#include "s_sound.h"
+#include "sounds.hpp"
+#include "s_sound.hpp"
 
-#include "m_misc.h"
-#include "m_random.h"
-#include "m_argv.h"
+#include "m_misc.hpp"
+#include "m_random.hpp"
+#include "m_argv.hpp"
 
-#include "p_local.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "p_local.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 // when to clip out sounds
 // Does not fit the large outdoor areas.

@@ -18,21 +18,21 @@
 
 #include <stdio.h>
 
-#include "i_system.h"
-#include "z_zone.h"
-#include "m_random.h"
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "m_random.hpp"
 
-#include "doomdef.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "p_local.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 
 plat_t*		activeplats[MAXPLATS];

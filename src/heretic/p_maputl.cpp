@@ -18,10 +18,10 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "i_system.h" // [crispy] I_Realloc()
-#include "m_bbox.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "i_system.hpp" // [crispy] I_Realloc()
+#include "m_bbox.hpp"
+#include "p_local.hpp"
 
 
 /*

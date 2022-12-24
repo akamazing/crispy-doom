@@ -26,58 +26,58 @@
 #include <string.h>
 #include <time.h> // [crispy] time_t, time(), struct tm, localtime()
 
-#include "config.h"
-#include "deh_main.h"
-#include "doomdef.h"
-#include "doomstat.h"
+#include "config.hpp"
+#include "deh_main.hpp"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
 
-#include "dstrings.h"
-#include "sounds.h"
+#include "dstrings.hpp"
+#include "sounds.hpp"
 
-#include "d_iwad.h"
-#include "d_pwad.h" // [crispy] D_Load{Sigil,Nerve,Masterlevels}Wad()
+#include "d_iwad.hpp"
+#include "d_pwad.hpp" // [crispy] D_Load{Sigil,Nerve,Masterlevels}Wad()
 
-#include "z_zone.h"
-#include "w_main.h"
-#include "w_wad.h"
-#include "s_sound.h"
-#include "v_diskicon.h"
-#include "v_video.h"
+#include "z_zone.hpp"
+#include "w_main.hpp"
+#include "w_wad.hpp"
+#include "s_sound.hpp"
+#include "v_diskicon.hpp"
+#include "v_video.hpp"
 
-#include "f_finale.h"
-#include "f_wipe.h"
+#include "f_finale.hpp"
+#include "f_wipe.hpp"
 
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "m_menu.h"
-#include "p_saveg.h"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "m_menu.hpp"
+#include "p_saveg.hpp"
 
-#include "i_endoom.h"
-#include "i_input.h"
-#include "i_joystick.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
+#include "i_endoom.hpp"
+#include "i_input.hpp"
+#include "i_joystick.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
 
-#include "g_game.h"
-#include "a11y.h" // [crispy] A11Y
+#include "g_game.hpp"
+#include "a11y.hpp" // [crispy] A11Y
 
-#include "hu_stuff.h"
-#include "v_snow.h"
-#include "wi_stuff.h"
-#include "st_stuff.h"
-#include "am_map.h"
-#include "net_client.h"
-#include "net_dedicated.h"
-#include "net_query.h"
+#include "hu_stuff.hpp"
+#include "v_snow.hpp"
+#include "wi_stuff.hpp"
+#include "st_stuff.hpp"
+#include "am_map.hpp"
+#include "net_client.hpp"
+#include "net_dedicated.hpp"
+#include "net_query.hpp"
 
-#include "p_setup.h"
-#include "r_local.h"
-#include "statdump.h"
+#include "p_setup.hpp"
+#include "r_local.hpp"
+#include "statdump.hpp"
 
-#include "d_main.h"
+#include "d_main.hpp"
 
 #include "doom_icon.c"
 

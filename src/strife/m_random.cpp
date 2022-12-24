@@ -19,7 +19,7 @@
 
 #include <time.h>
 
-#include "m_random.h"
+#include "m_random.hpp"
 
 //
 // M_Random

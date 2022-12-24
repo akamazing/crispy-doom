@@ -16,7 +16,7 @@
 //	WAD I/O functions.
 //
 
-#include "config.h"
+#include "config.hpp"
 
 #ifdef HAVE_MMAP
 
@@ -26,9 +26,9 @@
 #include <sys/mman.h>
 #include <string.h>
 
-#include "m_misc.h"
-#include "w_file.h"
-#include "z_zone.h"
+#include "m_misc.hpp"
+#include "w_file.hpp"
+#include "z_zone.hpp"
 
 typedef struct
 {

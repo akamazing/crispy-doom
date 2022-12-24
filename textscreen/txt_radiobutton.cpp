@@ -15,14 +15,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomkeys.h"
+#include "doomkeys.hpp"
 
-#include "txt_radiobutton.h"
-#include "txt_gui.h"
-#include "txt_io.h"
-#include "txt_main.h"
-#include "txt_utf8.h"
-#include "txt_window.h"
+#include "txt_radiobutton.hpp"
+#include "txt_gui.hpp"
+#include "txt_io.hpp"
+#include "txt_main.hpp"
+#include "txt_utf8.hpp"
+#include "txt_window.hpp"
 
 static void TXT_RadioButtonSizeCalc(TXT_UNCAST_ARG(radiobutton))
 {

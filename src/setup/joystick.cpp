@@ -16,18 +16,18 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomtype.h"
-#include "i_joystick.h"
-#include "m_config.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "textscreen.h"
+#include "doomtype.hpp"
+#include "i_joystick.hpp"
+#include "m_config.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "textscreen.hpp"
 
-#include "execute.h"
-#include "joystick.h"
-#include "mode.h"
-#include "txt_joyaxis.h"
-#include "txt_joybinput.h"
+#include "execute.hpp"
+#include "joystick.hpp"
+#include "mode.hpp"
+#include "txt_joyaxis.hpp"
+#include "txt_joybinput.hpp"
 
 #define WINDOW_HELP_URL "https://www.chocolate-doom.org/setup-gamepad"
 

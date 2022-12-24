@@ -19,7 +19,7 @@
 
 
 
-#include "doomdef.h"
+#include "doomdef.hpp"
 
 // Location for any defines turned variables.
 

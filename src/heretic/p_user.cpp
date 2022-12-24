@@ -18,11 +18,11 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "deh_str.h"
-#include "m_random.h"
-#include "p_local.h"
-#include "s_sound.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
+#include "m_random.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
 
 void P_PlayerNextArtifact(player_t * player);
 

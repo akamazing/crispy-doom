@@ -20,20 +20,20 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#include "deh_main.h"
-#include "doomdef.h"
+#include "deh_main.hpp"
+#include "doomdef.hpp"
 
-#include "z_zone.h"
-#include "v_video.h"
+#include "z_zone.hpp"
+#include "v_video.hpp"
 
-#include "i_swap.h"
-#include "i_system.h"
+#include "i_swap.hpp"
+#include "i_system.hpp"
 
-#include "w_wad.h"
+#include "w_wad.hpp"
 
-#include "st_stuff.h"
-#include "st_lib.h"
-#include "r_local.h"
+#include "st_stuff.hpp"
+#include "st_lib.hpp"
+#include "r_local.hpp"
 
 
 //

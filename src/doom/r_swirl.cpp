@@ -25,7 +25,7 @@
 #include <w_wad.h>
 #include <z_zone.h>
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 // swirl factors determine the number of waves per flat width
 

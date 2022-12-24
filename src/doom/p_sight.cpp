@@ -17,14 +17,14 @@
 //
 
 
-#include "doomdef.h"
-#include "doomstat.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
 
-#include "i_system.h"
-#include "p_local.h"
+#include "i_system.hpp"
+#include "p_local.hpp"
 
 // State.
-#include "r_state.h"
+#include "r_state.hpp"
 
 //
 // P_CheckSight

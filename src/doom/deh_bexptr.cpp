@@ -20,10 +20,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "info.h"
+#include "info.hpp"
 
-#include "deh_io.h"
-#include "deh_main.h"
+#include "deh_io.hpp"
+#include "deh_main.hpp"
 
 extern void A_Light0();
 extern void A_WeaponReady();

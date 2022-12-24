@@ -20,14 +20,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomkeys.h"
+#include "doomkeys.hpp"
 
-#include "txt_fileselect.h"
-#include "txt_inputbox.h"
-#include "txt_gui.h"
-#include "txt_io.h"
-#include "txt_main.h"
-#include "txt_widget.h"
+#include "txt_fileselect.hpp"
+#include "txt_inputbox.hpp"
+#include "txt_gui.hpp"
+#include "txt_io.hpp"
+#include "txt_main.hpp"
+#include "txt_widget.hpp"
 
 struct txt_fileselect_s {
     txt_widget_t widget;

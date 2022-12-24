@@ -18,16 +18,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "i_system.h"
-#include "i_timer.h"
+#include "i_system.hpp"
+#include "i_timer.hpp"
 
-#include "m_argv.h"
+#include "m_argv.hpp"
 
-#include "net_common.h"
-#include "net_sdl.h"
-#include "net_server.h"
+#include "net_common.hpp"
+#include "net_sdl.hpp"
+#include "net_server.hpp"
 
 // 
 // People can become confused about how dedicated servers work.  Game

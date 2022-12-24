@@ -16,24 +16,24 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "textscreen.h"
+#include "textscreen.hpp"
 
-#include "d_iwad.h"
-#include "m_config.h"
-#include "m_misc.h"
-#include "doom/d_englsh.h"
-#include "m_controls.h"
+#include "d_iwad.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
+#include "doom/d_englsh.hpp"
+#include "m_controls.hpp"
 
-#include "multiplayer.h"
-#include "mode.h"
-#include "execute.h"
+#include "multiplayer.hpp"
+#include "mode.hpp"
+#include "execute.hpp"
 
-#include "net_io.h"
-#include "net_query.h"
+#include "net_io.hpp"
+#include "net_query.hpp"
 
-#include "net_petname.h"
+#include "net_petname.hpp"
 
 #define MULTI_START_HELP_URL "https://www.chocolate-doom.org/setup-multi-start"
 #define MULTI_JOIN_HELP_URL "https://www.chocolate-doom.org/setup-multi-join"

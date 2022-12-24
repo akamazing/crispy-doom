@@ -23,13 +23,13 @@
 
 
 // Needed for FRACUNIT.
-#include "m_fixed.h"
+#include "m_fixed.hpp"
 
 // Needed for Flat retrieval.
-#include "r_data.h"
+#include "r_data.hpp"
 
 
-#include "r_sky.h"
+#include "r_sky.hpp"
 
 //
 // sky mapping

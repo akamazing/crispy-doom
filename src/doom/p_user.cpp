@@ -22,15 +22,15 @@
 
 
 #include <stdlib.h> // [crispy] abs()
-#include "doomdef.h"
-#include "d_event.h"
+#include "doomdef.hpp"
+#include "d_event.hpp"
 
-#include "p_local.h"
+#include "p_local.hpp"
 
-#include "doomstat.h"
-#include "a11y.h" // [crispy] A11Y
+#include "doomstat.hpp"
+#include "a11y.hpp" // [crispy] A11Y
 
-#include "s_sound.h" // [NS] Jump sound etc.
+#include "s_sound.hpp" // [NS] Jump sound etc.
 
 
 // Index of the special effects (INVUL inverse) map.

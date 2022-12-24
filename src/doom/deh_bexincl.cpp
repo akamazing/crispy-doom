@@ -20,10 +20,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "m_misc.h"
+#include "m_misc.hpp"
 
-#include "deh_io.h"
-#include "deh_main.h"
+#include "deh_io.hpp"
+#include "deh_main.hpp"
 
 static boolean bex_nested = false;
 

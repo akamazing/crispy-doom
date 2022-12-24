@@ -17,11 +17,11 @@
 
 #include <stdlib.h>
 #include <math.h>
-#include "doomdef.h"
-#include "m_bbox.h"
-#include "r_local.h"
-#include "tables.h"
-#include "v_video.h" // [crispy] V_DrawFilledBox for HOM detector
+#include "doomdef.hpp"
+#include "m_bbox.hpp"
+#include "r_local.hpp"
+#include "tables.hpp"
+#include "v_video.hpp" // [crispy] V_DrawFilledBox for HOM detector
 
 int viewangleoffset;
 

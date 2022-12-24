@@ -19,25 +19,25 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "config.h"
+#include "config.hpp"
 
-#include "doomtype.h"
-#include "d_mode.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "m_argv.h"
-#include "m_misc.h"
+#include "doomtype.hpp"
+#include "d_mode.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
 
-#include "net_client.h"
-#include "net_common.h"
-#include "net_defs.h"
-#include "net_io.h"
-#include "net_loop.h"
-#include "net_packet.h"
-#include "net_query.h"
-#include "net_server.h"
-#include "net_sdl.h"
-#include "net_structrw.h"
+#include "net_client.hpp"
+#include "net_common.hpp"
+#include "net_defs.hpp"
+#include "net_io.hpp"
+#include "net_loop.hpp"
+#include "net_packet.hpp"
+#include "net_query.hpp"
+#include "net_server.hpp"
+#include "net_sdl.hpp"
+#include "net_structrw.hpp"
 
 // How often to refresh our registration with the master server.
 #define MASTER_REFRESH_PERIOD 30  /* twice per minute */

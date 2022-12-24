@@ -36,14 +36,14 @@
 
 #endif
 
-#include "textscreen.h"
+#include "textscreen.hpp"
 
-#include "config.h"
-#include "execute.h"
-#include "mode.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_misc.h"
+#include "config.hpp"
+#include "execute.hpp"
+#include "mode.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
 
 struct execute_context_s
 {

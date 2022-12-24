@@ -23,15 +23,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "z_zone.h"
-#include "i_glob.h"
-#include "i_system.h"
-#include "d_player.h"
-#include "deh_str.h"
-#include "doomstat.h"
-#include "m_misc.h"
-#include "m_saves.h"
-#include "p_dialog.h"
+#include "z_zone.hpp"
+#include "i_glob.hpp"
+#include "i_system.hpp"
+#include "d_player.hpp"
+#include "deh_str.hpp"
+#include "doomstat.hpp"
+#include "m_misc.hpp"
+#include "m_saves.hpp"
+#include "p_dialog.hpp"
 
 //
 // File Paths

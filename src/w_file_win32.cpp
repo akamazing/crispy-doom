@@ -16,7 +16,7 @@
 //	WAD I/O functions.
 //
 
-#include "config.h"
+#include "config.hpp"
 
 #ifdef _WIN32
 
@@ -25,10 +25,10 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-#include "i_system.h"
-#include "m_misc.h"
-#include "w_file.h"
-#include "z_zone.h"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "w_file.hpp"
+#include "z_zone.hpp"
 
 // This constant doesn't exist in VC6:
 

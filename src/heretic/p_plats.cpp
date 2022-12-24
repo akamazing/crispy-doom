@@ -16,12 +16,12 @@
 
 // P_plats.c
 
-#include "doomdef.h"
-#include "i_system.h"
-#include "m_random.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "i_system.hpp"
+#include "m_random.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
 
 plat_t *activeplats[MAXPLATS];
 

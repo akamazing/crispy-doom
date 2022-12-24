@@ -27,7 +27,7 @@
 
 #include <errno.h>
 
-#include "ioperm_sys.h"
+#include "ioperm_sys.hpp"
 
 #define IOPERM_FILE L"\\\\.\\ioperm"
 

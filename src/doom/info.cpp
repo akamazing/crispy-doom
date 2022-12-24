@@ -22,12 +22,12 @@
 #include <stdlib.h>
 
 // Data.
-#include "sounds.h"
-#include "m_fixed.h"
+#include "sounds.hpp"
+#include "m_fixed.hpp"
 
-#include "info.h"
+#include "info.hpp"
 
-#include "p_mobj.h"
+#include "p_mobj.hpp"
 
 const char *sprnames[] = {
     "TROO","SHTG","PUNG","PISG","PISF","SHTF","SHT2","CHGG","CHGF","MISG",

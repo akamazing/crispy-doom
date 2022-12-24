@@ -18,11 +18,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "config.h"
-#include "doomtype.h"
-#include "i_video.h"
+#include "config.hpp"
+#include "doomtype.hpp"
+#include "i_video.hpp"
 
-#include "txt_main.h"
+#include "txt_main.hpp"
 
 #define ENDOOM_W 80
 #define ENDOOM_H 25

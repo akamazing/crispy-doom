@@ -22,12 +22,12 @@
 #include <stdlib.h>
 
 // Data.
-#include "sounds.h"
-#include "m_fixed.h"
+#include "sounds.hpp"
+#include "m_fixed.hpp"
 
-#include "info.h"
+#include "info.hpp"
 
-#include "p_mobj.h"
+#include "p_mobj.hpp"
 
 // villsa [STRIFE]
 const char *sprnames[NUMSPRITES+1] =

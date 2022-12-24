@@ -19,16 +19,16 @@
 
 
 
-#include "z_zone.h"
-#include "m_random.h"
+#include "z_zone.hpp"
+#include "m_random.hpp"
 
-#include "doomdef.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "p_local.hpp"
 
 
 // State.
-#include "r_state.h"
-#include "a11y.h" // [crispy] A11Y
+#include "r_state.hpp"
+#include "a11y.hpp" // [crispy] A11Y
 
 //
 // FIRELIGHT FLICKER

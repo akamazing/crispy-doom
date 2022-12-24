@@ -16,11 +16,11 @@
 // R_planes.c
 
 #include <stdlib.h>
-#include "doomdef.h"
-#include "deh_str.h"
-#include "i_system.h"
-#include "r_bmaps.h" // [crispy] R_BrightmapForTexName()
-#include "r_local.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
+#include "i_system.hpp"
+#include "r_bmaps.hpp" // [crispy] R_BrightmapForTexName()
+#include "r_local.hpp"
 
 planefunction_t floorfunc, ceilingfunc;
 

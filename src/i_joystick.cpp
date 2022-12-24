@@ -16,20 +16,20 @@
 //
 
 
-#include "SDL.h"
-#include "SDL_joystick.h"
+#include "SDL.hpp"
+#include "SDL_joystick.hpp"
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
-#include "doomtype.h"
-#include "d_event.h"
-#include "i_joystick.h"
-#include "i_system.h"
+#include "doomtype.hpp"
+#include "d_event.hpp"
+#include "i_joystick.hpp"
+#include "i_system.hpp"
 
-#include "m_config.h"
-#include "m_misc.h"
+#include "m_config.hpp"
+#include "m_misc.hpp"
 
 // When an axis is within the dead zone, it is set to zero.
 // This is 5% of the full range:

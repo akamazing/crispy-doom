@@ -19,13 +19,13 @@
 #include <math.h>
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "m_bbox.h"
-#include "p_local.h"
-#include "s_sound.h"
+#include "doomdef.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "m_bbox.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
 
 void P_SpawnMapThing(mapthing_t * mthing);
 

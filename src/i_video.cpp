@@ -20,8 +20,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL.h"
-#include "SDL_opengl.h"
+#include "SDL.hpp"
+#include "SDL_opengl.hpp"
 
 #ifdef _WIN32
 #ifndef WIN32_LEAN_AND_MEAN
@@ -30,25 +30,25 @@
 #include <windows.h>
 #endif
 
-#include "crispy.h"
+#include "crispy.hpp"
 
-#include "config.h"
-#include "d_loop.h"
-#include "deh_str.h"
-#include "doomtype.h"
-#include "i_input.h"
-#include "i_joystick.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_misc.h"
-#include "tables.h"
-#include "v_diskicon.h"
-#include "v_video.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "config.hpp"
+#include "d_loop.hpp"
+#include "deh_str.hpp"
+#include "doomtype.hpp"
+#include "i_input.hpp"
+#include "i_joystick.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
+#include "tables.hpp"
+#include "v_diskicon.hpp"
+#include "v_video.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 int SCREENWIDTH, SCREENHEIGHT, SCREENHEIGHT_4_3;
 int NONWIDEWIDTH; // [crispy] non-widescreen SCREENWIDTH

@@ -17,17 +17,17 @@
 
 // HEADER FILES ------------------------------------------------------------
 
-#include "h2def.h"
-#include "i_cdmus.h"
-#include "i_video.h"
-#include "m_bbox.h"
-#include "m_cheat.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
-#include "i_swap.h"
-#include "am_map.h"
+#include "h2def.hpp"
+#include "i_cdmus.hpp"
+#include "i_video.hpp"
+#include "m_bbox.hpp"
+#include "m_cheat.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
+#include "i_swap.hpp"
+#include "am_map.hpp"
 
 
 // TYPES -------------------------------------------------------------------

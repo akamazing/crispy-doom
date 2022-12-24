@@ -22,25 +22,25 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "SDL.h"
-#include "SDL_mixer.h"
+#include "SDL.hpp"
+#include "SDL_mixer.hpp"
 
-#include "config.h"
-#include "doomtype.h"
-#include "memio.h"
-#include "mus2mid.h"
+#include "config.hpp"
+#include "doomtype.hpp"
+#include "memio.hpp"
+#include "mus2mid.hpp"
 
-#include "deh_str.h"
-#include "gusconf.h"
-#include "i_sound.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_misc.h"
-#include "sha1.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "deh_str.hpp"
+#include "gusconf.hpp"
+#include "i_sound.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
+#include "sha1.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 
 char *fluidsynth_sf_path = "";

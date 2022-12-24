@@ -30,7 +30,7 @@
 //	
 //    
 
-#include "tables.h"
+#include "tables.hpp"
 
 // to get a global angle from cartesian coordinates, the coordinates are
 // flipped until they are in the first octant of the coordinate system, then

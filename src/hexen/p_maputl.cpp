@@ -15,10 +15,10 @@
 //
 
 
-#include "h2def.h"
-#include "i_system.h"
-#include "m_bbox.h"
-#include "p_local.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "m_bbox.hpp"
+#include "p_local.hpp"
 
 static mobj_t *RoughBlockCheck(mobj_t * mo, int index);
 

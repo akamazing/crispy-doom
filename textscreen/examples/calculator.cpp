@@ -19,7 +19,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "textscreen.h"
+#include "textscreen.hpp"
 
 typedef enum
 {

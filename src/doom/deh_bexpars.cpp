@@ -19,8 +19,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "deh_bexpars.h"
-#include "deh_io.h"
+#include "deh_bexpars.hpp"
+#include "deh_io.hpp"
 
 int bex_pars[6][10] = {{0}};
 int bex_cpars[32] = {0};

@@ -18,11 +18,11 @@
 
 #include <string.h>
 
-#include "doomtype.h"
-#include "i_system.h"
-#include "m_argv.h"
+#include "doomtype.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
 
-#include "z_zone.h"
+#include "z_zone.hpp"
 
 
 //

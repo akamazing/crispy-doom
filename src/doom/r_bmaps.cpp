@@ -19,10 +19,10 @@
 //	Adapted from doomretro/src/r_data.c:97-209
 //
 
-#include "doomtype.h"
-#include "doomstat.h"
-#include "r_data.h"
-#include "w_wad.h"
+#include "doomtype.hpp"
+#include "doomstat.hpp"
+#include "r_data.hpp"
+#include "w_wad.hpp"
 
 // [crispy] brightmap data
 

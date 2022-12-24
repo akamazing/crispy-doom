@@ -18,12 +18,12 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "v_video.hpp"
 
 static FILE *SaveGameFP;
 

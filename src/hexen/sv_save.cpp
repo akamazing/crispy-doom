@@ -17,11 +17,11 @@
 
 // HEADER FILES ------------------------------------------------------------
 
-#include "h2def.h"
-#include "i_system.h"
-#include "m_misc.h"
-#include "i_swap.h"
-#include "p_local.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "m_misc.hpp"
+#include "i_swap.hpp"
+#include "p_local.hpp"
 
 // MACROS ------------------------------------------------------------------
 

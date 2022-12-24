@@ -16,12 +16,12 @@
 
 #include <stdlib.h>
 
-#include "crispy.h"
-#include "m_config.h"
-#include "textscreen.h"
-#include "mode.h"
+#include "crispy.hpp"
+#include "m_config.hpp"
+#include "textscreen.hpp"
+#include "mode.hpp"
 
-#include "compatibility.h"
+#include "compatibility.hpp"
 
 #define WINDOW_HELP_URL "https://www.chocolate-doom.org/setup-compat"
 

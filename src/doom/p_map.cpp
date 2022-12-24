@@ -20,24 +20,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "deh_misc.h"
+#include "deh_misc.hpp"
 
-#include "m_bbox.h"
-#include "m_random.h"
-#include "i_system.h"
+#include "m_bbox.hpp"
+#include "m_random.hpp"
+#include "i_system.hpp"
 
-#include "doomdef.h"
-#include "m_argv.h"
-#include "m_misc.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 // Spechit overrun magic value.
 //

@@ -16,19 +16,19 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL.h"
+#include "SDL.hpp"
 
-#include "joystick.h"
-#include "i_joystick.h"
-#include "i_system.h"
-#include "m_controls.h"
-#include "m_misc.h"
+#include "joystick.hpp"
+#include "i_joystick.hpp"
+#include "i_system.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
 
-#include "textscreen.h"
-#include "txt_gui.h"
-#include "txt_io.h"
-#include "txt_joyaxis.h"
-#include "txt_utf8.h"
+#include "textscreen.hpp"
+#include "txt_gui.hpp"
+#include "txt_io.hpp"
+#include "txt_joyaxis.hpp"
+#include "txt_utf8.hpp"
 
 #define JOYSTICK_AXIS_WIDTH 20
 

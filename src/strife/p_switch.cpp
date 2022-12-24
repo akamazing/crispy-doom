@@ -19,28 +19,28 @@
 
 #include <stdio.h>
 
-#include "i_system.h"
-#include "deh_main.h"
-#include "doomdef.h"
-#include "p_local.h"
+#include "i_system.hpp"
+#include "deh_main.hpp"
+#include "doomdef.hpp"
+#include "p_local.hpp"
 
-#include "g_game.h"
-#include "d_main.h" // villsa [STRIFE]
-#include "z_zone.h" // villsa [STRIFE]
-#include "w_wad.h"  // villsa [STRIFE]
-#include "s_sound.h"
-#include "m_random.h" // haleyjd [STRIFE]
-#include "p_dialog.h"
-#include "p_local.h"  // haleyjd [STRIFE]
-#include "m_bbox.h"   // villsa [STRIFE]
-#include "m_misc.h"
+#include "g_game.hpp"
+#include "d_main.hpp" // villsa [STRIFE]
+#include "z_zone.hpp" // villsa [STRIFE]
+#include "w_wad.hpp"  // villsa [STRIFE]
+#include "s_sound.hpp"
+#include "m_random.hpp" // haleyjd [STRIFE]
+#include "p_dialog.hpp"
+#include "p_local.hpp"  // haleyjd [STRIFE]
+#include "m_bbox.hpp"   // villsa [STRIFE]
+#include "m_misc.hpp"
 
 // Data.
-#include "sounds.h"
+#include "sounds.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 //
 // CHANGE THE TEXTURE OF A WALL SWITCH TO ITS OPPOSITE

@@ -19,22 +19,22 @@
 
 #include <stdlib.h>
 
-#include "d_main.h"
-#include "m_argv.h"
-#include "m_menu.h"
-#include "m_misc.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
-#include "g_game.h"
-#include "doomdef.h"
-#include "doomstat.h"
-#include "w_checksum.h"
-#include "w_wad.h"
+#include "d_main.hpp"
+#include "m_argv.hpp"
+#include "m_menu.hpp"
+#include "m_misc.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
+#include "g_game.hpp"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
+#include "w_checksum.hpp"
+#include "w_wad.hpp"
 
-#include "deh_main.h"
+#include "deh_main.hpp"
 
-#include "d_loop.h"
+#include "d_loop.hpp"
 
 ticcmd_t *netcmds;
 

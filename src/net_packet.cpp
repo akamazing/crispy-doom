@@ -17,9 +17,9 @@
 
 #include <ctype.h>
 #include <string.h>
-#include "m_misc.h"
-#include "net_packet.h"
-#include "z_zone.h"
+#include "m_misc.hpp"
+#include "net_packet.hpp"
+#include "z_zone.hpp"
 
 static int total_packet_memory = 0;
 

@@ -14,18 +14,18 @@
 // GNU General Public License for more details.
 //
 
-#include "h2def.h"
-#include "m_random.h"
-#include "i_cdmus.h"
-#include "i_sound.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "m_argv.h"
-#include "m_misc.h"
-#include "r_local.h"
-#include "p_local.h"            // for P_AproxDistance
-#include "sounds.h"
-#include "s_sound.h"
+#include "h2def.hpp"
+#include "m_random.hpp"
+#include "i_cdmus.hpp"
+#include "i_sound.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "m_argv.hpp"
+#include "m_misc.hpp"
+#include "r_local.hpp"
+#include "p_local.hpp"            // for P_AproxDistance
+#include "sounds.hpp"
+#include "s_sound.hpp"
 
 #define PRIORITY_MAX_ADJUST 10
 #define DIST_ADJUST (MAX_SND_DIST/PRIORITY_MAX_ADJUST)

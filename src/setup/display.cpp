@@ -20,13 +20,13 @@
 #include <windows.h>
 #endif
 
-#include "textscreen.h"
-#include "m_config.h"
-#include "m_misc.h"
-#include "mode.h"
+#include "textscreen.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
+#include "mode.hpp"
 
-#include "display.h"
-#include "config.h"
+#include "display.hpp"
+#include "config.hpp"
 
 #define WINDOW_HELP_URL "https://www.chocolate-doom.org/setup-display"
 

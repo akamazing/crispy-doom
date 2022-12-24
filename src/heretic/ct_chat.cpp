@@ -20,16 +20,16 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "doomdef.h"
-#include "doomkeys.h"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
 
-#include "deh_str.h"
-#include "i_input.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
+#include "deh_str.hpp"
+#include "i_input.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
 
 #define QUEUESIZE		128
 #define MESSAGESIZE	128

@@ -23,15 +23,15 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL_mixer.h"
+#include "SDL_mixer.hpp"
 
-#include "textscreen.h"
-#include "m_config.h"
-#include "m_misc.h"
+#include "textscreen.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
 
-#include "execute.h"
-#include "mode.h"
-#include "sound.h"
+#include "execute.hpp"
+#include "mode.hpp"
+#include "sound.hpp"
 
 #define WINDOW_HELP_URL "https://www.chocolate-doom.org/setup-sound"
 

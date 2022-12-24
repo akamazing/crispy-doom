@@ -18,7 +18,7 @@
 //
 
 
-#include "crispy.h"
+#include "crispy.hpp"
 
 // [crispy] "regular" config variables
 static crispy_t crispy_s = {

@@ -19,19 +19,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "doomdef.h"
-#include "doomkeys.h"
-#include "deh_str.h"
-#include "i_input.h"
-#include "i_timer.h"
-#include "i_system.h"
-#include "m_argv.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "m_random.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
+#include "deh_str.hpp"
+#include "i_input.hpp"
+#include "i_timer.hpp"
+#include "i_system.hpp"
+#include "m_argv.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "m_random.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
 
 // Macros
 

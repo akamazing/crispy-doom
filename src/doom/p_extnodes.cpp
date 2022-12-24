@@ -18,20 +18,20 @@
 // 	format or DeePBSP format and/or LINEDEFS and THINGS lumps in Hexen format
 //
 
-#include "m_bbox.h"
-#include "p_local.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "w_wad.h"
-#include "z_zone.h"
+#include "m_bbox.hpp"
+#include "p_local.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "w_wad.hpp"
+#include "z_zone.hpp"
 
 // [crispy] support maps with compressed ZDBSP nodes
-#include "config.h"
+#include "config.hpp"
 #ifdef HAVE_LIBZ
 #include <zlib.h>
 #endif
 
-#include "p_extnodes.h"
+#include "p_extnodes.hpp"
 
 void P_SpawnMapThing (mapthing_t*    mthing);
 fixed_t GetOffset(vertex_t *v1, vertex_t *v2);

@@ -23,21 +23,21 @@
 #include <stdlib.h>
 
 
-#include "deh_main.h"
-#include "doomdef.h"
+#include "deh_main.hpp"
+#include "doomdef.hpp"
 
-#include "i_swap.h"
-#include "i_system.h"
-#include "z_zone.h"
-#include "w_wad.h"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "w_wad.hpp"
 
-#include "r_local.h"
+#include "r_local.hpp"
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
-#include "v_trans.h" // [crispy] colored blood sprites
-#include "p_local.h" // [crispy] MLOOKUNIT
-#include "r_bmaps.h" // [crispy] R_BrightmapForTexName()
+#include "v_trans.hpp" // [crispy] colored blood sprites
+#include "p_local.hpp" // [crispy] MLOOKUNIT
+#include "r_bmaps.hpp" // [crispy] R_BrightmapForTexName()
 
 
 #define MINZ				(FRACUNIT*4)

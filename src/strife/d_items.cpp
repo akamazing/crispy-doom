@@ -17,9 +17,9 @@
 
 
 // We are referring to sprite numbers.
-#include "info.h"
+#include "info.hpp"
 
-#include "d_items.h"
+#include "d_items.hpp"
 
 
 //

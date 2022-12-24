@@ -18,17 +18,17 @@
 
 #include <stdio.h>
 
-#include "doomdef.h"
-#include "deh_str.h"
-#include "i_timer.h"
-#include "i_video.h"
-#include "m_controls.h"
-#include "p_local.h"
-#include "am_map.h"
-#include "am_data.h"
+#include "doomdef.hpp"
+#include "deh_str.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
+#include "m_controls.hpp"
+#include "p_local.hpp"
+#include "am_map.hpp"
+#include "am_data.hpp"
 
-#include "doomkeys.h"
-#include "v_video.h"
+#include "doomkeys.hpp"
+#include "v_video.hpp"
 
 vertex_t KeyPoints[NUM_KEY_TYPES];
 

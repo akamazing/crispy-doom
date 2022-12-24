@@ -19,20 +19,20 @@
 
 #include <stdio.h>
 
-#include "d_main.h"
-#include "deh_main.h"
-#include "i_swap.h"
-#include "i_system.h"
-#include "z_zone.h"
-#include "w_wad.h"
-#include "doomdef.h"
-#include "r_local.h"
-#include "p_local.h"
-#include "doomstat.h"
-#include "m_misc.h"
-#include "r_sky.h"
-#include "r_data.h"
-#include "sounds.h" // villsa [STRIFE]
+#include "d_main.hpp"
+#include "deh_main.hpp"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "w_wad.hpp"
+#include "doomdef.hpp"
+#include "r_local.hpp"
+#include "p_local.hpp"
+#include "doomstat.hpp"
+#include "m_misc.hpp"
+#include "r_sky.hpp"
+#include "r_data.hpp"
+#include "sounds.hpp" // villsa [STRIFE]
 
 //
 // Graphics.

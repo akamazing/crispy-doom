@@ -15,11 +15,11 @@
 //
 
 
-#include "h2def.h"
-#include "i_system.h"
-#include "i_video.h"
-#include "r_local.h"
-#include "v_video.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "i_video.hpp"
+#include "r_local.hpp"
+#include "v_video.hpp"
 
 /*
 

@@ -23,20 +23,20 @@
 #include <stdlib.h>
 
 
-#include "deh_main.h"
-#include "doomdef.h"
+#include "deh_main.hpp"
+#include "doomdef.hpp"
 
-#include "i_swap.h"
-#include "i_system.h"
-#include "z_zone.h"
-#include "w_wad.h"
+#include "i_swap.hpp"
+#include "i_system.hpp"
+#include "z_zone.hpp"
+#include "w_wad.hpp"
 
-#include "r_local.h"
+#include "r_local.hpp"
 
-#include "doomstat.h"
+#include "doomstat.hpp"
 
 // haleyjd
-#include "p_local.h"
+#include "p_local.hpp"
 
 
 

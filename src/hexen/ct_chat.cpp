@@ -17,14 +17,14 @@
 
 #include <string.h>
 #include <ctype.h>
-#include "h2def.h"
-#include "i_input.h"
-#include "s_sound.h"
-#include "doomkeys.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "v_video.h"
+#include "h2def.hpp"
+#include "i_input.hpp"
+#include "s_sound.hpp"
+#include "doomkeys.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "v_video.hpp"
 
 #define NUMKEYS 256
 

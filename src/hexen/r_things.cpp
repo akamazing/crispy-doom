@@ -17,11 +17,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "h2def.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "r_bmaps.h"
-#include "r_local.h"
+#include "h2def.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "r_bmaps.hpp"
+#include "r_local.hpp"
 
 //void R_DrawTranslatedAltTLColumn(void);
 

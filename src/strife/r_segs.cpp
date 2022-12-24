@@ -24,13 +24,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "i_system.h"
+#include "i_system.hpp"
 
-#include "doomdef.h"
-#include "doomstat.h"
+#include "doomdef.hpp"
+#include "doomstat.hpp"
 
-#include "r_local.h"
-#include "r_sky.h"
+#include "r_local.hpp"
+#include "r_sky.hpp"
 
 
 // OPTIMIZE: closed two sided lines as single sided

@@ -17,13 +17,13 @@
 // P_enemy.c
 
 #include <stdlib.h>
-#include "doomdef.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "m_random.h"
-#include "p_local.h"
-#include "s_sound.h"
-#include "v_video.h"
+#include "doomdef.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "m_random.hpp"
+#include "p_local.hpp"
+#include "s_sound.hpp"
+#include "v_video.hpp"
 
 // Macros
 

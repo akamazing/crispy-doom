@@ -16,17 +16,17 @@
 
 #include <stdio.h>
 
-#include "h2def.h"
-#include "doomkeys.h"
-#include "i_video.h"
-#include "i_swap.h"
-#include "i_timer.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "p_local.h"
-#include "am_map.h"
-#include "am_data.h"
-#include "v_video.h"
+#include "h2def.hpp"
+#include "doomkeys.hpp"
+#include "i_video.hpp"
+#include "i_swap.hpp"
+#include "i_timer.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "p_local.hpp"
+#include "am_map.hpp"
+#include "am_data.hpp"
+#include "v_video.hpp"
 
 #define NUMALIAS 3              // Number of antialiased lines.
 

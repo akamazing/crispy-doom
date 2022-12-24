@@ -15,12 +15,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "doomkeys.h"
+#include "doomkeys.hpp"
 
-#include "txt_strut.h"
-#include "txt_io.h"
-#include "txt_main.h"
-#include "txt_window.h"
+#include "txt_strut.hpp"
+#include "txt_io.hpp"
+#include "txt_main.hpp"
+#include "txt_window.hpp"
 
 static void TXT_StrutSizeCalc(TXT_UNCAST_ARG(strut))
 {

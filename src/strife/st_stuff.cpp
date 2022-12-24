@@ -22,48 +22,48 @@
 
 #include <stdio.h>
 
-#include "i_system.h"
-#include "i_video.h"
-#include "z_zone.h"
-#include "m_random.h"
-#include "w_wad.h"
+#include "i_system.hpp"
+#include "i_video.hpp"
+#include "z_zone.hpp"
+#include "m_random.hpp"
+#include "w_wad.hpp"
 
-#include "deh_main.h"
-#include "deh_misc.h"
-#include "doomdef.h"
-#include "doomkeys.h"
+#include "deh_main.hpp"
+#include "deh_misc.hpp"
+#include "doomdef.hpp"
+#include "doomkeys.hpp"
 
-#include "g_game.h"
+#include "g_game.hpp"
 
-#include "st_stuff.h"
-#include "st_lib.h"
-#include "r_local.h"
+#include "st_stuff.hpp"
+#include "st_lib.hpp"
+#include "r_local.hpp"
 
-#include "p_local.h"
-#include "p_inter.h"
-#include "p_dialog.h"   // villsa [STRIFE]
+#include "p_local.hpp"
+#include "p_inter.hpp"
+#include "p_dialog.hpp"   // villsa [STRIFE]
 
-#include "am_map.h"
-#include "m_cheat.h"
-#include "m_menu.h" // villsa [STRIFE]
-#include "m_misc.h"
+#include "am_map.hpp"
+#include "m_cheat.hpp"
+#include "m_menu.hpp" // villsa [STRIFE]
+#include "m_misc.hpp"
 
-#include "s_sound.h"
+#include "s_sound.hpp"
 
 // Needs access to LFB.
-#include "v_video.h"
-#include "i_swap.h"
+#include "v_video.hpp"
+#include "i_swap.hpp"
 
 // State.
-#include "doomstat.h"
-#include "d_main.h"    // [STRIFE]
+#include "doomstat.hpp"
+#include "d_main.hpp"    // [STRIFE]
 
 // Data.
-#include "dstrings.h"
-#include "sounds.h"
-#include "m_controls.h"
-#include "hu_lib.h"     // [STRIFE]
-#include "hu_stuff.h"
+#include "dstrings.hpp"
+#include "sounds.hpp"
+#include "m_controls.hpp"
+#include "hu_lib.hpp"     // [STRIFE]
+#include "hu_stuff.hpp"
 
 //
 // STATUS BAR DATA

@@ -20,14 +20,14 @@
 
 #include <stdlib.h>
 
-#include "doomstat.h"
-#include "deh_main.h"
-#include "d_iwad.h"
-#include "m_argv.h"
-#include "m_config.h"
-#include "m_misc.h"
-#include "w_main.h"
-#include "w_wad.h"
+#include "doomstat.hpp"
+#include "deh_main.hpp"
+#include "d_iwad.hpp"
+#include "m_argv.hpp"
+#include "m_config.hpp"
+#include "m_misc.hpp"
+#include "w_main.hpp"
+#include "w_wad.hpp"
 
 extern char *iwadfile;
 

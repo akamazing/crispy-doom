@@ -18,8 +18,8 @@
 
 #include <math.h>
 
-#include "doomtype.h"
-#include "v_trans.h"
+#include "doomtype.hpp"
+#include "v_trans.hpp"
 
 // [crispy] here used to be static color translation tables based on
 // the ones found in Boom and MBF. Nowadays these are recalculated

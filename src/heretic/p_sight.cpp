@@ -17,8 +17,8 @@
 
 #include <stdlib.h>
 
-#include "doomdef.h"
-#include "p_local.h"
+#include "doomdef.hpp"
+#include "p_local.hpp"
 
 /*
 ==============================================================================

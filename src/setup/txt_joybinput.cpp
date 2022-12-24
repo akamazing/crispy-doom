@@ -16,22 +16,22 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL_joystick.h"
+#include "SDL_joystick.hpp"
 
-#include "doomkeys.h"
-#include "joystick.h"
-#include "i_joystick.h"
-#include "i_system.h"
-#include "m_controls.h"
-#include "m_misc.h"
+#include "doomkeys.hpp"
+#include "joystick.hpp"
+#include "i_joystick.hpp"
+#include "i_system.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
 
-#include "txt_joybinput.h"
-#include "txt_gui.h"
-#include "txt_io.h"
-#include "txt_label.h"
-#include "txt_sdl.h"
-#include "txt_utf8.h"
-#include "txt_window.h"
+#include "txt_joybinput.hpp"
+#include "txt_gui.hpp"
+#include "txt_io.hpp"
+#include "txt_label.hpp"
+#include "txt_sdl.hpp"
+#include "txt_utf8.hpp"
+#include "txt_window.hpp"
 
 #define JOYSTICK_INPUT_WIDTH 10
 

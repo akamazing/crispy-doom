@@ -22,24 +22,24 @@
 #include <stdlib.h>
 
 // Functions.
-#include "deh_main.h"
-#include "i_system.h"
-#include "i_swap.h"
-#include "z_zone.h"
-#include "v_video.h"
-#include "w_wad.h"
-#include "s_sound.h"
+#include "deh_main.hpp"
+#include "i_system.hpp"
+#include "i_swap.hpp"
+#include "z_zone.hpp"
+#include "v_video.hpp"
+#include "w_wad.hpp"
+#include "s_sound.hpp"
 
 // Data.
-#include "d_main.h"
-#include "dstrings.h"
-#include "sounds.h"
+#include "d_main.hpp"
+#include "dstrings.hpp"
+#include "sounds.hpp"
 
-#include "doomstat.h"
-#include "r_state.h"
-#include "m_controls.h" // [crispy] key_*
-#include "m_misc.h" // [crispy] M_StringDuplicate()
-#include "m_random.h" // [crispy] Crispy_Random()
+#include "doomstat.hpp"
+#include "r_state.hpp"
+#include "m_controls.hpp" // [crispy] key_*
+#include "m_misc.hpp" // [crispy] M_StringDuplicate()
+#include "m_random.hpp" // [crispy] Crispy_Random()
 
 typedef enum
 {
@@ -49,9 +49,9 @@ typedef enum
 } finalestage_t;
 
 // ?
-//#include "doomstat.h"
-//#include "r_local.h"
-//#include "f_finale.h"
+//#include "doomstat.hpp"
+//#include "r_local.hpp"
+//#include "f_finale.hpp"
 
 // Stage of animation:
 finalestage_t finalestage;
@@ -245,7 +245,7 @@ void F_Ticker (void)
 // F_TextWrite
 //
 
-#include "hu_stuff.h"
+#include "hu_stuff.hpp"
 
 // [crispy] add line breaks for lines exceeding screenwidth
 static inline boolean F_AddLineBreak (char *c)

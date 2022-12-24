@@ -19,33 +19,33 @@
 
 #include <stdio.h>
 
-#include "deh_main.h"
+#include "deh_main.hpp"
 
-#include "z_zone.h"
-#include "doomkeys.h"
-#include "doomdef.h"
-#include "st_stuff.h"
-#include "p_local.h"
-#include "w_wad.h"
+#include "z_zone.hpp"
+#include "doomkeys.hpp"
+#include "doomdef.hpp"
+#include "st_stuff.hpp"
+#include "p_local.hpp"
+#include "w_wad.hpp"
 
-#include "m_cheat.h"
-#include "m_controls.h"
-#include "m_misc.h"
-#include "i_system.h"
-#include "i_timer.h"
-#include "i_video.h"
+#include "m_cheat.hpp"
+#include "m_controls.hpp"
+#include "m_misc.hpp"
+#include "i_system.hpp"
+#include "i_timer.hpp"
+#include "i_video.hpp"
 
 // Needs access to LFB.
-#include "v_video.h"
+#include "v_video.hpp"
 
 // State.
-#include "doomstat.h"
-#include "r_state.h"
+#include "doomstat.hpp"
+#include "r_state.hpp"
 
 // Data.
-#include "dstrings.h"
+#include "dstrings.hpp"
 
-#include "am_map.h"
+#include "am_map.hpp"
 extern boolean inhelpscreens; // [crispy]
 
 
