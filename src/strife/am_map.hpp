@@ -19,7 +19,7 @@
 #ifndef __AMMAP_H__
 #define __AMMAP_H__
 
-#include "d_event.h"
+#include "d_event.hpp"
 #include "m_cheat.h"
 
 // Used by ST StatusBar stuff.

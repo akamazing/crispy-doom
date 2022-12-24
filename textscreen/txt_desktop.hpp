@@ -21,7 +21,7 @@
  * Textscreen desktop.
  */
 
-#include "txt_window.h"
+#include "txt_window.hpp"
 
 typedef void (*TxtIdleCallback)(void *user_data);
 

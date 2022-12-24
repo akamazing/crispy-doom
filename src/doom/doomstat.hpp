@@ -34,7 +34,7 @@
 #include "d_player.h"
 
 // Game mode/mission
-#include "d_mode.h"
+#include "d_mode.hpp"
 
 #include "net_defs.h"
 

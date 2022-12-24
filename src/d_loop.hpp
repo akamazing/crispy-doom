@@ -20,7 +20,7 @@
 #define __D_LOOP__
 
 #include "net_defs.h"
-#include "m_fixed.h"
+#include "m_fixed.hpp"
 
 
 // Callback function invoked while waiting for the netgame to start.

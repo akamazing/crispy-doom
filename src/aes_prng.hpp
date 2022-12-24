@@ -18,7 +18,7 @@
 #ifndef __AES_PRNG_H__
 #define __AES_PRNG_H__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 // Nonce value used as random seed for secure demos.
 

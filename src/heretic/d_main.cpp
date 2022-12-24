@@ -24,7 +24,7 @@
 
 #include "net_client.hpp"
 
-#include "config.hpp"
+#include "config.h"
 #include "ct_chat.hpp"
 #include "doomdef.hpp"
 #include "deh_main.hpp"

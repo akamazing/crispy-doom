@@ -21,7 +21,7 @@
 #ifndef __D_TEXTUR__
 #define __D_TEXTUR__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 
 

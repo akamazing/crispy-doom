@@ -20,9 +20,9 @@
 #ifndef DEH_MAPPING_H
 #define DEH_MAPPING_H
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 #include "deh_io.h"
-#include "sha1.h"
+#include "sha1.hpp"
 
 #define DEH_BEGIN_MAPPING(mapping_name, structname)           \
     static structname deh_mapping_base;                       \

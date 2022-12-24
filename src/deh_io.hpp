@@ -18,7 +18,7 @@
 #ifndef DEH_IO_H
 #define DEH_IO_H
 
-#include "deh_defs.h"
+#include "deh_defs.hpp"
 
 deh_context_t *DEH_OpenFile(const char *filename);
 deh_context_t *DEH_OpenLump(int lumpnum);

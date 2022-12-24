@@ -21,7 +21,7 @@
 #define __M_RANDOM__
 
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 
 

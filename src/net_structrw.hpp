@@ -16,7 +16,7 @@
 #define NET_STRUCTRW_H
 
 #include "aes_prng.h"
-#include "sha1.h"
+#include "sha1.hpp"
 #include "net_defs.h"
 #include "net_packet.h"
 

@@ -24,7 +24,7 @@
 #include <stdarg.h>
 #include <sys/stat.h>
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 #ifdef _WIN32
 wchar_t *M_ConvertUtf8ToWide(const char *str);

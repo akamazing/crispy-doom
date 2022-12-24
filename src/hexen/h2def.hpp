@@ -27,19 +27,19 @@
 
 // ticcmd:
 
-#include "d_ticcmd.h"
+#include "d_ticcmd.hpp"
 
 // events
 
-#include "d_event.h"
+#include "d_event.hpp"
 
 // gamemode/mission
 
-#include "d_mode.h"
+#include "d_mode.hpp"
 
 // for fixed_t:
 
-#include "m_fixed.h"
+#include "m_fixed.hpp"
 
 // angle definitions:
 

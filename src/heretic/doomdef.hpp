@@ -43,19 +43,19 @@
 #include "w_wad.h"
 
 // fixed_t
-#include "m_fixed.h"
+#include "m_fixed.hpp"
 
 // angle_t 
 #include "tables.h"
 
 // events
-#include "d_event.h"
+#include "d_event.hpp"
 
 // gamemode/mission
-#include "d_mode.h"
+#include "d_mode.hpp"
 
 // ticcmd_t
-#include "d_ticcmd.h"
+#include "d_ticcmd.hpp"
 
 #include "d_loop.h"
 

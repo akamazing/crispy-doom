@@ -33,7 +33,7 @@
 #ifndef __V_TRANS__
 #define __V_TRANS__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 enum
 {

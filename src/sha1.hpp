@@ -18,7 +18,7 @@
 #ifndef __SHA1_H__
 #define __SHA1_H__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 typedef struct sha1_context_s sha1_context_t;
 typedef byte sha1_digest_t[20];

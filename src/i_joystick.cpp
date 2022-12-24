@@ -16,7 +16,7 @@
 //
 
 
-#include "SDL.hpp"
+#include "SDL.h"
 #include "SDL_joystick.hpp"
 
 #include <stdlib.h>

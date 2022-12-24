@@ -18,7 +18,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "SDL.hpp"
+#include "SDL.h"
 #include "SDL_mixer.hpp"
 
 #include "pcsound.hpp"

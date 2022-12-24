@@ -36,7 +36,7 @@
 
 typedef struct txt_checkbox_s txt_checkbox_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_checkbox_s
 {

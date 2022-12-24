@@ -20,7 +20,7 @@
 #ifndef MIDIFALLBACK_H
 #define MIDIFALLBACK_H
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 #include "midifile.h"
 
 typedef enum midi_fallback_type_t

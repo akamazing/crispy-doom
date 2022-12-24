@@ -31,7 +31,7 @@
 
 typedef struct txt_strut_s txt_strut_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_strut_s
 {

@@ -21,7 +21,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL_stdinc.hpp"
+#include "SDL_stdinc.h"
 
 #include "doomtype.hpp"
 #include "d_iwad.hpp"

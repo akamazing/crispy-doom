@@ -18,7 +18,7 @@
 #ifndef __GUSCONF_H__
 #define __GUSCONF_H__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 extern char *gus_patch_path;
 extern int gus_ram_kb;

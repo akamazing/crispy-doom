@@ -17,7 +17,7 @@
 #ifndef NET_COMMON_H
 #define NET_COMMON_H
 
-#include "d_mode.h"
+#include "d_mode.hpp"
 #include "net_defs.h"
 #include "net_packet.h"
 

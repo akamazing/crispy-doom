@@ -20,7 +20,7 @@
 #ifndef __D_MODE__
 #define __D_MODE__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 // The "mission" controls what game we are playing.
 

@@ -18,7 +18,7 @@
 #ifndef DEH_DEFS_H
 #define DEH_DEFS_H
 
-#include "sha1.h"
+#include "sha1.hpp"
 
 typedef struct deh_context_s deh_context_t;
 typedef struct deh_section_s deh_section_t;

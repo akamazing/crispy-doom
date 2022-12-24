@@ -20,7 +20,7 @@
 
 #include "SDL_mixer.hpp"
 
-#include "config.hpp"
+#include "config.h"
 #include "doomtype.hpp"
 
 #include "gusconf.hpp"

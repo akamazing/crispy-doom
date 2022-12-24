@@ -21,7 +21,7 @@
 #ifndef __CRISPY_H__
 #define __CRISPY_H__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 #ifndef MIN
 #define MIN(a,b) (((a)<(b))?(a):(b))

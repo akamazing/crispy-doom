@@ -15,7 +15,7 @@
 //     OPL SDL interface.
 //
 
-#include "config.hpp"
+#include "config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,7 +23,7 @@
 #include <errno.h>
 #include <assert.h>
 
-#include "SDL.hpp"
+#include "SDL.h"
 #include "SDL_mixer.hpp"
 
 #include "opl3.hpp"

@@ -25,7 +25,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "config.hpp"
+#include "config.h"
 #include "deh_main.hpp"
 #include "doomdef.hpp"
 #include "doomstat.hpp"

@@ -18,7 +18,7 @@
 #ifndef __HU_STUFF_H__
 #define __HU_STUFF_H__
 
-#include "d_event.h"
+#include "d_event.hpp"
 #include "v_patch.h"
 
 //

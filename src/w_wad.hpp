@@ -22,8 +22,8 @@
 
 #include <stdio.h>
 
-#include "doomtype.h"
-#include "w_file.h"
+#include "doomtype.hpp"
+#include "w_file.hpp"
 
 
 //

@@ -22,12 +22,12 @@
 #include <string.h>
 #include <ctype.h>
 
-#include "SDL.hpp"
+#include "SDL.h"
 #include "SDL_mixer.hpp"
 
 #include "i_glob.hpp"
 
-#include "config.hpp"
+#include "config.h"
 #include "doomtype.hpp"
 #include "memio.hpp"
 #include "mus2mid.hpp"

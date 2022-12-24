@@ -20,7 +20,7 @@
 #ifndef __I_SOUND__
 #define __I_SOUND__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 // so that the individual game logic and sound driver code agree
 #define NORM_PITCH 127

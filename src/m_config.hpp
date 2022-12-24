@@ -20,7 +20,7 @@
 #ifndef __M_CONFIG__
 #define __M_CONFIG__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 void M_LoadDefaults(void);
 void M_SaveDefaults(void);

@@ -37,7 +37,7 @@ typedef enum
     TXT_SPINCONTROL_FLOAT,
 } txt_spincontrol_type_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_spincontrol_s
 {

@@ -41,7 +41,7 @@
 
 typedef struct txt_radiobutton_s txt_radiobutton_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_radiobutton_s
 {

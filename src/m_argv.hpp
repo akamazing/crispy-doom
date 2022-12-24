@@ -20,7 +20,7 @@
 #ifndef __M_ARGV__
 #define __M_ARGV__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 //
 // MISC

@@ -17,7 +17,7 @@
 #ifndef STSTART_H
 #define STSTART_H
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 // HEADER FILES ------------------------------------------------------------
 

@@ -30,7 +30,7 @@
 
 typedef struct txt_conditional_s txt_conditional_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 /**
  * Create a new conditional widget.

@@ -20,7 +20,7 @@
 
 #include <stdio.h>
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 // Used to do dehacked text substitutions throughout the program
 

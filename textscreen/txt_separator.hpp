@@ -32,7 +32,7 @@
 
 typedef struct txt_separator_s txt_separator_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_separator_s
 {

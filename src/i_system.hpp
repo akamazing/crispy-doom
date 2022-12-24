@@ -20,8 +20,8 @@
 #ifndef __I_SYSTEM__
 #define __I_SYSTEM__
 
-#include "d_ticcmd.h"
-#include "d_event.h"
+#include "d_ticcmd.hpp"
+#include "d_event.hpp"
 
 
 typedef void (*atexit_func_t)(void);

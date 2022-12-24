@@ -18,7 +18,7 @@
 #ifndef TXT_IO_H
 #define TXT_IO_H
 
-#include "txt_main.h"
+#include "txt_main.hpp"
 
 typedef struct
 {

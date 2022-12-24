@@ -44,7 +44,7 @@
 #include "z_zone.hpp"
 #include "crispy.hpp"
 
-#include "config.hpp"
+#include "config.h"
 #ifdef HAVE_LIBPNG
 #include <png.h>
 #endif

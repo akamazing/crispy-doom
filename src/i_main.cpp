@@ -16,14 +16,14 @@
 //	Main program, simply calls D_DoomMain high level loop.
 //
 
-#include "config.hpp"
+#include "config.h"
 #include "crispy.hpp"
 
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "SDL.hpp"
+#include "SDL.h"
 
 #include "doomtype.hpp"
 #include "i_system.hpp"

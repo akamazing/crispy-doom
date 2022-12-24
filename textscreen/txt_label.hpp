@@ -29,8 +29,8 @@
 
 typedef struct txt_label_s txt_label_t;
 
-#include "txt_main.h"
-#include "txt_widget.h"
+#include "txt_main.hpp"
+#include "txt_widget.hpp"
 
 struct txt_label_s
 {

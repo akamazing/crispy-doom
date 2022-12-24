@@ -20,7 +20,7 @@ extern "C" {
 #endif
 
 #include "../src/doomkeys.h"
-#include "txt_main.h"
+#include "txt_main.hpp"
 
 #include "txt_button.h"
 #include "txt_checkbox.h"
@@ -35,10 +35,10 @@ extern "C" {
 #include "txt_separator.h"
 #include "txt_spinctrl.h"
 #include "txt_strut.h"
-#include "txt_table.h"
-#include "txt_widget.h"
-#include "txt_window_action.h"
-#include "txt_window.h"
+#include "txt_table.hpp"
+#include "txt_widget.hpp"
+#include "txt_window_action.hpp"
+#include "txt_window.hpp"
 
 #ifdef __cplusplus
 }

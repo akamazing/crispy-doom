@@ -31,7 +31,7 @@
 
 typedef struct txt_scrollpane_s txt_scrollpane_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_scrollpane_s
 {

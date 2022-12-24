@@ -18,7 +18,7 @@
 #ifndef __XDDEFS__
 #define __XDDEFS__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 #include "v_patch.h"
 
 //--------------------------------------------------------------------------

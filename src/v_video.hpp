@@ -22,7 +22,7 @@
 #ifndef __V_VIDEO__
 #define __V_VIDEO__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 // Needed because we are refering to patches.
 #include "v_patch.h"

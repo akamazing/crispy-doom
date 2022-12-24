@@ -32,7 +32,7 @@
 
 typedef struct txt_inputbox_s txt_inputbox_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_inputbox_s
 {

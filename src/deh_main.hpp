@@ -18,9 +18,9 @@
 #ifndef DEH_MAIN_H
 #define DEH_MAIN_H
 
-#include "doomtype.h"
-#include "deh_str.h"
-#include "sha1.h"
+#include "doomtype.hpp"
+#include "deh_str.hpp"
+#include "sha1.hpp"
 
 // These are the limits that dehacked uses (from dheinit.h in the dehacked
 // source).  If these limits are exceeded, it does not generate an error, but

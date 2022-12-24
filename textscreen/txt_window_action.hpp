@@ -33,8 +33,8 @@
 
 typedef struct txt_window_action_s txt_window_action_t;
 
-#include "txt_widget.h"
-#include "txt_window.h"
+#include "txt_widget.hpp"
+#include "txt_window.hpp"
 
 struct txt_window_action_s
 {

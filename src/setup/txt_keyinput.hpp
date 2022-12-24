@@ -17,7 +17,7 @@
 
 typedef struct txt_key_input_s txt_key_input_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 //
 // A key input is like an input box.  When selected, a box pops up

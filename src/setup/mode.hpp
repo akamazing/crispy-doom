@@ -15,7 +15,7 @@
 #ifndef SETUP_MODE_H
 #define SETUP_MODE_H
 
-#include "d_mode.h"
+#include "d_mode.hpp"
 #include "d_iwad.h"
 
 typedef void (*GameSelectCallback)(void);

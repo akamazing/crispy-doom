@@ -21,7 +21,7 @@
 #ifndef NET_GUI_H
 #define NET_GUI_H
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
 extern void NET_WaitForLaunch(void);
 

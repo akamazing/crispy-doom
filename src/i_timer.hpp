@@ -20,7 +20,7 @@
 #ifndef __I_TIMER__
 #define __I_TIMER__
 
-#include "m_fixed.h" // [crispy]
+#include "m_fixed.hpp" // [crispy]
 
 #define TICRATE 35
 

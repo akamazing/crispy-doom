@@ -30,7 +30,7 @@
 
 typedef struct txt_button_s txt_button_t;
 
-#include "txt_widget.h"
+#include "txt_widget.hpp"
 
 struct txt_button_s
 {

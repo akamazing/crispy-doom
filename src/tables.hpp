@@ -34,9 +34,9 @@
 #ifndef __TABLES__
 #define __TABLES__
 
-#include "doomtype.h"
+#include "doomtype.hpp"
 
-#include "m_fixed.h"
+#include "m_fixed.hpp"
 	
 #define FINEANGLES		8192
 #define FINEMASK		(FINEANGLES-1)

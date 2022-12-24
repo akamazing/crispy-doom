@@ -17,8 +17,8 @@
 
 typedef struct txt_joystick_input_s txt_joystick_input_t;
 
-#include "txt_widget.h"
-#include "txt_window.h"
+#include "txt_widget.hpp"
+#include "txt_window.hpp"
 
 //
 // A joystick input is like an input box.  When selected, a box pops up

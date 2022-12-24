@@ -20,7 +20,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "SDL.hpp"
+#include "SDL.h"
 #include "SDL_opengl.hpp"
 
 #ifdef _WIN32
@@ -32,7 +32,7 @@
 
 #include "crispy.hpp"
 
-#include "config.hpp"
+#include "config.h"
 #include "d_loop.hpp"
 #include "deh_str.hpp"
 #include "doomtype.hpp"
