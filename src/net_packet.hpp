@@ -18,7 +18,7 @@
 #ifndef NET_PACKET_H
 #define NET_PACKET_H
 
-#include "net_defs.h"
+#include "net_defs.hpp"
 
 net_packet_t *NET_NewPacket(int initial_size);
 net_packet_t *NET_PacketDup(net_packet_t *packet);

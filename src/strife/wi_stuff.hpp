@@ -23,7 +23,7 @@
 #if 0
 //#include "v_video.h"
 
-#include "doomdef.h"
+#include "doomdef.hpp"
 
 // States for the intermission
 

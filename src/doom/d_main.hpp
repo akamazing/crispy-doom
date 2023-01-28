@@ -20,7 +20,7 @@
 #ifndef __D_MAIN__
 #define __D_MAIN__
 
-#include "doomdef.h"
+#include "doomdef.hpp"
 
 
 

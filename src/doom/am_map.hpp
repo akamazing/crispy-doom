@@ -20,7 +20,7 @@
 #define __AMMAP_H__
 
 #include "d_event.hpp"
-#include "m_cheat.h"
+#include "m_cheat.hpp"
 
 // Used by ST StatusBar stuff.
 #define AM_MSGHEADER (('a'<<24)+('m'<<16))

@@ -18,7 +18,7 @@
 
 
 
-#include "stdlib.hpp"
+#include "stdlib.h"
 
 #include "doomtype.hpp"
 #include "i_system.hpp"

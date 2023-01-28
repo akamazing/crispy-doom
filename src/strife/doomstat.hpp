@@ -36,7 +36,7 @@
 // Game mode/mission
 #include "d_mode.hpp"
 
-#include "net_defs.h"
+#include "net_defs.hpp"
 
 
 

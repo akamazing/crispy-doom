@@ -18,7 +18,7 @@
 #ifndef NET_IO_H
 #define NET_IO_H
 
-#include "net_defs.h"
+#include "net_defs.hpp"
 
 extern net_addr_t net_broadcast_addr;
 

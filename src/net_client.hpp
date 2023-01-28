@@ -20,7 +20,7 @@
 #include "doomtype.hpp"
 #include "d_ticcmd.hpp"
 #include "sha1.hpp"
-#include "net_defs.h"
+#include "net_defs.hpp"
 
 boolean NET_CL_Connect(net_addr_t *addr, net_connect_data_t *data);
 void NET_CL_Disconnect(void);

@@ -37,7 +37,7 @@
 // as commands per game tick.
 #include "d_ticcmd.hpp"
 
-#include "net_defs.h"
+#include "net_defs.hpp"
 
 
 

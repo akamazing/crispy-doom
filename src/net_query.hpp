@@ -18,7 +18,7 @@
 #ifndef NET_QUERY_H
 #define NET_QUERY_H
 
-#include "net_defs.h"
+#include "net_defs.hpp"
 
 typedef void (*net_query_callback_t)(net_addr_t *addr,
                                      net_querydata_t *querydata,

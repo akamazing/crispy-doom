@@ -25,7 +25,7 @@
 #include "doomtype.hpp"
 
 // Some global defines, that configure the game.
-#include "doomdef.h"
+#include "doomdef.hpp"
 
 
 

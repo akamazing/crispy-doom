@@ -24,7 +24,7 @@
 
 // All important printed strings.
 
-#include "d_englsh.h"
+#include "d_englsh.hpp"
 
 // Misc. other strings.
 #define SAVEGAMENAME	"doomsav"

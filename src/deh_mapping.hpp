@@ -21,7 +21,7 @@
 #define DEH_MAPPING_H
 
 #include "doomtype.hpp"
-#include "deh_io.h"
+#include "deh_io.hpp"
 #include "sha1.hpp"
 
 #define DEH_BEGIN_MAPPING(mapping_name, structname)           \

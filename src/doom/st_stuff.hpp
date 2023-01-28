@@ -23,7 +23,7 @@
 
 #include "doomtype.hpp"
 #include "d_event.hpp"
-#include "m_cheat.h"
+#include "m_cheat.hpp"
 
 // Size of statusbar.
 // Now sensitive for scaling.

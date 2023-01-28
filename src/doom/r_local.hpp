@@ -21,13 +21,13 @@
 #define __R_LOCAL__
 
 // Binary Angles, sine/cosine/atan lookups.
-#include "tables.h"
+#include "tables.hpp"
 
 // Screen size related parameters.
-#include "doomdef.h"
+#include "doomdef.hpp"
 
 // Include the refresh/render data structs.
-#include "r_data.h"
+#include "r_data.hpp"
 
 
 

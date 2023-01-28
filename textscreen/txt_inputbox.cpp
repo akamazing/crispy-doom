@@ -26,7 +26,7 @@
 #include "txt_utf8.hpp"
 #include "txt_window.hpp"
 
-txt_widget_class_t txt_inputbox_class;
+//txt_widget_class_t txt_inputbox_class;
 txt_widget_class_t txt_int_inputbox_class;
 
 static void SetBufferFromValue(txt_inputbox_t *inputbox)

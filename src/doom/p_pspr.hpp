@@ -23,7 +23,7 @@
 // Basic data types.
 // Needs fixed point, and BAM angles.
 #include "m_fixed.hpp"
-#include "tables.h"
+#include "tables.hpp"
 
 
 //
@@ -33,7 +33,7 @@
 // This includes all the data for thing animation,
 // i.e. the Thing Atrributes table
 // and the Frame Sequence table.
-#include "info.h"
+#include "info.hpp"
 
 
 

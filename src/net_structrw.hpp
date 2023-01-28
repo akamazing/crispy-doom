@@ -17,7 +17,7 @@
 
 #include "aes_prng.h"
 #include "sha1.hpp"
-#include "net_defs.h"
+#include "net_defs.hpp"
 #include "net_packet.h"
 
 void NET_WriteConnectData(net_packet_t *packet, net_connect_data_t *data);

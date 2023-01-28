@@ -118,9 +118,8 @@ txt_widget_class_t txt_checkbox_class =
 
 txt_checkbox_t *TXT_NewCheckBox(const char *label, int *variable)
 {
-    txt_checkbox_t *checkbox;
-
-    checkbox = malloc(sizeof(txt_checkbox_t));
+    auto loc = malloc(sizeof(txt_checkbox_t));
+    txt_checkbox_t *checkbox = new(loc) txt_checkbox_t{};
 
     TXT_InitWidget(checkbox, &txt_checkbox_class);
     checkbox->label = strdup(label);

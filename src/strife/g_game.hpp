@@ -20,10 +20,10 @@
 #ifndef __G_GAME__
 #define __G_GAME__
 
-#include "doomdef.h"
+#include "doomdef.hpp"
 #include "d_event.hpp"
 #include "d_ticcmd.hpp"
-#include "tables.h"
+#include "tables.hpp"
 
 //
 // GAME

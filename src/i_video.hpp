@@ -21,7 +21,7 @@
 #define __I_VIDEO__
 
 #include "doomtype.hpp"
-#include "crispy.h"
+#include "crispy.hpp"
 
 // Screen width and height.
 
