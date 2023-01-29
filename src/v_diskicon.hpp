@@ -19,7 +19,7 @@
 #ifndef __V_DISKICON__
 #define __V_DISKICON__
 
-#include "crispy.h"
+#include "crispy.hpp"
 
 // Dimensions of the flashing "loading" disk icon
 

@@ -22,7 +22,7 @@
 
 #include "doomdef.hpp"
 
-#include "v_patch.h"
+#include "v_patch.hpp"
 
 
 // Read events from all input devices

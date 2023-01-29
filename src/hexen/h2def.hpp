@@ -721,7 +721,7 @@ extern boolean usearti;
 ===============================================================================
 */
 
-#include "w_wad.h"
+#include "w_wad.hpp"
 #include "z_zone.h"
 
 //----------
@@ -1132,7 +1132,7 @@ extern boolean mn_SuicideConsole;
 extern int detailLevel;
 
 
-#include "sounds.h"
+#include "sounds.hpp"
 
 #include "p_action.h"
 

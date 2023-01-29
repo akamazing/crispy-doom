@@ -25,9 +25,9 @@
 #include "doomtype.hpp"
 
 // Needed because we are refering to patches.
-#include "v_patch.h"
+#include "v_patch.hpp"
 
-#include "w_wad.h" // [crispy] for lumpindex_t
+#include "w_wad.hpp" // [crispy] for lumpindex_t
 
 //
 // VIDEO

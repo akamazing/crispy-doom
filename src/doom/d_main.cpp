@@ -79,7 +79,7 @@
 
 #include "d_main.hpp"
 
-#include "doom_icon.c"
+#include "doom_icon.cpp"
 
 //
 // D-DoomLoop()

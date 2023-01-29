@@ -19,6 +19,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <new>
 
 #include "config.h"
 #include "doomstat.hpp"
@@ -495,8 +496,8 @@ void P_WriteExtendedSaveGameData (void)
 {
 	int i;
 
-	line = malloc(MAX_LINE_LEN);
-
+	auto loc = malloc(MAX_LINE_LEN);
+        line = new (loc) char();
 	for (i = 0; i < arrlen(extsavegdata); i++)
 	{
 		extsavegdata[i].extsavegwritefn(extsavegdata[i].key);

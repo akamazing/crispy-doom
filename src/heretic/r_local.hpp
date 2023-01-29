@@ -19,7 +19,7 @@
 #define __R_LOCAL__
 
 #include "i_video.h"
-#include "v_patch.h"
+#include "v_patch.hpp"
 
 #define	ANGLETOSKYSHIFT		22      // sky map is 256*128*4 maps
 

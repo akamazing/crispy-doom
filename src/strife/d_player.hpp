@@ -30,7 +30,7 @@
 
 // In addition, the player is just a special
 // case of the generic moving object/actor.
-#include "p_mobj.h"
+#include "p_mobj.hpp"
 
 // Finally, for odd reasons, the player input
 // is buffered within the player data struct,

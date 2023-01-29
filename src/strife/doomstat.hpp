@@ -31,7 +31,7 @@
 #include "d_loop.h"
 
 // We need the playr data structure as well.
-#include "d_player.h"
+#include "d_player.hpp"
 
 // Game mode/mission
 #include "d_mode.hpp"

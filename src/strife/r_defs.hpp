@@ -32,11 +32,11 @@
 // to handle sound origins in sectors.
 #include "d_think.h"
 // SECTORS do store MObjs anyway.
-#include "p_mobj.h"
+#include "p_mobj.hpp"
 
 #include "i_video.h"
 
-#include "v_patch.h"
+#include "v_patch.hpp"
 
 
 

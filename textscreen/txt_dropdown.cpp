@@ -158,8 +158,8 @@ static void OpenSelectorWindow(txt_dropdown_list_t *list)
         TXT_AddWidget(window, button);
 
         // Callback struct
-        auto *loc = malloc(sizeof(callback_data_t));
-        data = new (loc) callback_data_t{};
+        auto loc = malloc(sizeof(callback_data_t));
+        data = new (loc) callback_data_t();
         data->list = list;
         data->window = window;
         data->item = i;
@@ -292,9 +292,8 @@ txt_widget_class_t txt_dropdown_list_class =
 txt_dropdown_list_t *TXT_NewDropdownList(int *variable, const char **values,
                                          int num_values)
 {
-    txt_dropdown_list_t *list;
-
-    list = malloc(sizeof(txt_dropdown_list_t));
+    auto loc = malloc(sizeof(txt_dropdown_list_t));
+    txt_dropdown_list_t *list = new (loc) txt_dropdown_list_t ();
 
     TXT_InitWidget(list, &txt_dropdown_list_class);
     list->variable = variable;

@@ -40,7 +40,7 @@
 #include "info.hpp"
 
 // WAD file access
-#include "w_wad.h"
+#include "w_wad.hpp"
 
 // fixed_t
 #include "m_fixed.hpp"
@@ -883,6 +883,6 @@ int MN_TextAWidth(const char *text);
 void MN_DrTextB(const char *text, int x, int y);
 int MN_TextBWidth(const char *text);
 
-#include "sounds.h"
+#include "sounds.hpp"
 
 #endif // __DOOMDEF__

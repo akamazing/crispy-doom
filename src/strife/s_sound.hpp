@@ -20,8 +20,8 @@
 #ifndef __S_SOUND__
 #define __S_SOUND__
 
-#include "p_mobj.h"
-#include "sounds.h"
+#include "p_mobj.hpp"
+#include "sounds.hpp"
 
 //
 // Initializes sound stuff, including volume

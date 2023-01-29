@@ -289,6 +289,6 @@ extern int SB_state;
 extern int ArtifactFlash;
 void SB_PaletteFlash(void);
 
-#include "p_spec.h"
+#include "p_spec.hpp"
 
 #endif // __P_LOCAL__

@@ -422,6 +422,6 @@ boolean PO_RotatePolyobj(int num, angle_t angle);
 void PO_Init(int lump);
 boolean PO_Busy(int polyobj);
 
-#include "p_spec.h"
+#include "p_spec.hpp"
 
 #endif // __P_LOCAL__

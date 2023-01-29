@@ -27,19 +27,19 @@
 #include "doomdef.hpp"
 
 // Include the refresh/render data structs.
-#include "r_data.h"
+#include "r_data.hpp"
 
 
 
 //
 // Separate header file for each module.
 //
-#include "r_main.h"
-#include "r_bsp.h"
-#include "r_segs.h"
-#include "r_plane.h"
-#include "r_data.h"
-#include "r_things.h"
-#include "r_draw.h"
+#include "r_main.hpp"
+#include "r_bsp.hpp"
+#include "r_segs.hpp"
+#include "r_plane.hpp"
+#include "r_data.hpp"
+#include "r_things.hpp"
+#include "r_draw.hpp"
 
 #endif		// __R_LOCAL__

@@ -14,7 +14,7 @@
 
 #include <stdlib.h>
 #include <string.h>
-
+#include <new>
 #include "txt_gui.hpp"
 #include "txt_io.hpp"
 #include "txt_main.hpp"
@@ -420,7 +420,8 @@ void TXT_InitClipArea(void)
 {
     if (cliparea == NULL)
     {
-        cliparea = malloc(sizeof(txt_cliparea_t));
+        auto loc = malloc(sizeof(txt_cliparea_t));
+        cliparea = new (loc) txt_cliparea_t ();
         cliparea->x1 = 0;
         cliparea->x2 = TXT_SCREEN_W;
         cliparea->y1 = 0;
@@ -431,9 +432,8 @@ void TXT_InitClipArea(void)
 
 void TXT_PushClipArea(int x1, int x2, int y1, int y2)
 {
-    txt_cliparea_t *newarea;
-
-    newarea = malloc(sizeof(txt_cliparea_t));
+    auto loc = malloc(sizeof(txt_cliparea_t));
+    txt_cliparea_t *newarea = new(loc) txt_cliparea_t();
 
     // Set the new clip area to the intersection of the old
     // area and the new one.

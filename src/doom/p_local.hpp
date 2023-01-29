@@ -311,7 +311,7 @@ P_DamageMobj
 //
 // P_SPEC
 //
-#include "p_spec.h"
+#include "p_spec.hpp"
 
 
 #endif	// __P_LOCAL__

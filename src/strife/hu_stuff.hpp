@@ -19,7 +19,7 @@
 #define __HU_STUFF_H__
 
 #include "d_event.hpp"
-#include "v_patch.h"
+#include "v_patch.hpp"
 
 //
 // Globally visible constants.
