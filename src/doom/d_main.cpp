@@ -25,6 +25,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h> // [crispy] time_t, time(), struct tm, localtime()
+#include <new>
 
 #include "config.h"
 #include "deh_main.hpp"
@@ -172,7 +173,7 @@ boolean D_Display (void)
     static  boolean		menuactivestate = false;
     static  boolean		inhelpscreensstate = false;
     static  boolean		fullscreen = false;
-    static  gamestate_t		oldgamestate = -1;
+    static  gamestate_t		oldgamestate = GS_FORCEWIPE;
     static  int			borderdrawcount;
     int				y;
     boolean			wipe;
@@ -184,7 +185,7 @@ boolean D_Display (void)
     if (setsizeneeded)
     {
 	R_ExecuteSetViewSize ();
-	oldgamestate = -1;                      // force background redraw
+	oldgamestate = GS_FORCEWIPE;                      // force background redraw
 	borderdrawcount = 3;
     }
 
@@ -832,7 +833,8 @@ static char *GetGameName(const char *gamename)
             // We also need to cut off spaces to get the basic name
 
             gamename_size = strlen(deh_sub) + 10;
-            deh_gamename = malloc(gamename_size);
+            deh_gamename = static_cast<char *>(malloc(gamename_size));
+
             if (deh_gamename == NULL)
             {
                 I_Error("GetGameName: Failed to allocate new string");
@@ -1122,7 +1124,7 @@ static struct
     {"Final Doom",           "final",      exe_final},
     {"Final Doom (alt)",     "final2",     exe_final2},
     {"Chex Quest",           "chex",       exe_chex},
-    { NULL,                  NULL,         0},
+    { NULL,                  nullptr,        exe_doom_1_2},
 };
 
 // Initialize the game version

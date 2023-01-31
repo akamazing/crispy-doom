@@ -129,7 +129,7 @@ void F_Ticker(void)
             finalestage = 1;
         }
 
-//              wipegamestate = -1;             // force a wipe
+//              wipegamestate = GS_FORCEWIPE;             // force a wipe
 /*
 		if (gameepisode == 3)
 			S_StartMusic (mus_bunny);

@@ -23,7 +23,7 @@
 #include <ctype.h>
 
 #include "SDL.h"
-#include "SDL_mixer.hpp"
+#include "SDL_mixer.h"
 
 #include "config.h"
 #include "doomtype.hpp"

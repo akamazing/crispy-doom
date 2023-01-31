@@ -129,7 +129,7 @@ void P_SpawnLightFlash (sector_t*	sector)
     // nothing special about it during gameplay
     sector->special = 0;	
 	
-    flash = Z_Malloc ( sizeof(*flash), PU_LEVSPEC, 0);
+    flash = Z_Malloc<decltype(flash)> ( sizeof(*flash), PU_LEVSPEC, 0);
 
     P_AddThinker (&flash->thinker);
 
@@ -189,7 +189,7 @@ P_SpawnStrobeFlash
 {
     strobe_t*	flash;
 	
-    flash = Z_Malloc ( sizeof(*flash), PU_LEVSPEC, 0);
+    flash = Z_Malloc<decltype(flash)> ( sizeof(*flash), PU_LEVSPEC, 0);
 
     P_AddThinker (&flash->thinker);
 
@@ -354,7 +354,7 @@ void P_SpawnGlowingLight(sector_t*	sector)
 {
     glow_t*	g;
 	
-    g = Z_Malloc( sizeof(*g), PU_LEVSPEC, 0);
+    g = Z_Malloc<decltype(g)>( sizeof(*g), PU_LEVSPEC, 0);
 
     P_AddThinker(&g->thinker);
 

@@ -51,6 +51,7 @@
 // the game final animation, or a demo. 
 typedef enum
 {
+    GS_FORCEWIPE = -1,
     GS_LEVEL,
     GS_UNKNOWN,
     GS_FINALE,

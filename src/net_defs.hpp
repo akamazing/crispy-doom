@@ -23,6 +23,7 @@
 #include "doomtype.hpp"
 #include "d_ticcmd.hpp"
 #include "sha1.hpp"
+#include "d_mode.hpp"
 
 // Absolute maximum number of "nodes" in the game.  This is different to
 // NET_MAXPLAYERS, as there may be observers that are not participating
@@ -197,8 +198,8 @@ typedef struct
     int fast_monsters;
     int respawn_monsters;
     int map;
-    int skill;
-    int gameversion;
+    skill_t skill;
+    GameVersion_t gameversion;
     int lowres_turn;
     int new_sync;
     int timelimit;
@@ -250,8 +251,8 @@ typedef struct
     int server_state;
     int num_players;
     int max_players;
-    int gamemode;
-    int gamemission;
+    GameMode_t gamemode;
+    GameMission_t gamemission;
     const char *description;
     net_protocol_t protocol;
 } net_querydata_t;

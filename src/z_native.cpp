@@ -30,13 +30,13 @@
 #define ZONEID	0x1d4a11
 
 typedef struct memblock_s memblock_t;
-
+template <typename T>
 struct memblock_s
 {
     int id; // = ZONEID
     int tag;
     int size;
-    void **user;
+    T **user;
     memblock_t *prev;
     memblock_t *next;
 };
@@ -235,12 +235,12 @@ static boolean ClearCache(int size)
 // Z_Malloc
 // You can pass a NULL user if the tag is < PU_PURGELEVEL.
 //
-
-void *Z_Malloc(int size, int tag, void *user)
+template<typename T, typename U>
+T Z_Malloc(int size, int tag, U user)
 {
     memblock_t *newblock;
     unsigned char *data;
-    void *result;
+    T *result;
 
     if (tag < 0 || tag >= PU_NUM_TAGS || tag == PU_FREE)
     {

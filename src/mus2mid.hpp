@@ -21,7 +21,7 @@
 #define MUS2MID_H
 
 #include "doomtype.hpp"
-#include "memio.h"
+#include "memio.hpp"
 
 boolean mus2mid(MEMFILE *musinput, MEMFILE *midioutput);
 

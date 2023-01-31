@@ -233,7 +233,7 @@ void F_Ticker (void)
     {
 	finalecount = 0;
 	finalestage = F_STAGE_ARTSCREEN;
-	wipegamestate = -1;		// force a wipe
+	wipegamestate = GS_FORCEWIPE;		// force a wipe
 	if (gameepisode == 3)
 	    S_StartMusic (mus_bunny);
     }
@@ -525,7 +525,7 @@ static int F_SoundForState (int st)
 //
 void F_StartCast (void)
 {
-    wipegamestate = -1;		// force a screen wipe
+    wipegamestate = GS_FORCEWIPE;		// force a screen wipe
     castnum = 0;
     caststate = &states[mobjinfo[castorder[castnum].type].seestate];
     casttics = caststate->tics;

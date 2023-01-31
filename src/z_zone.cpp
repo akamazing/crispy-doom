@@ -39,10 +39,11 @@
 #define MEM_ALIGN sizeof(void *)
 #define ZONEID	0x1d4a11
 
+template<typename T>
 typedef struct memblock_s
 {
     int			size;	// including the header and possibly tiny fragments
-    void**		user;
+    T		user;
     int			tag;	// PU_FREE if this is free
     int			id;	// should be ZONEID
     struct memblock_s*	next;
@@ -244,19 +245,15 @@ void Z_Free (void* ptr)
 //
 #define MINFRAGMENT		64
 
-
-void*
-Z_Malloc
-( int		size,
-  int		tag,
-  void*		user )
+template<typename T>
+T Z_Malloc (int size, int tag, void* user)
 {
     int		extra;
     memblock_t*	start;
     memblock_t* rover;
     memblock_t* newblock;
     memblock_t*	base;
-    void *result;
+    T result;
 
     size = (size + MEM_ALIGN - 1) & ~(MEM_ALIGN - 1);
     
@@ -345,7 +342,7 @@ Z_Malloc
     base->user = user;
     base->tag = tag;
 
-    result  = (void *) ((byte *)base + sizeof(memblock_t));
+    result  = (void *)((byte *)base + sizeof(memblock_t));
 
     if (base->user)
     {

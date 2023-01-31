@@ -19,6 +19,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <new>
 
 #include "doomtype.hpp"
 #include "i_swap.hpp"
@@ -174,7 +175,7 @@ static void *ReadByteSequence(unsigned int num_bytes, FILE *stream)
     // Allocate a buffer. Allocate one extra byte, as malloc(0) is
     // non-portable.
 
-    result = malloc(num_bytes + 1);
+    result = static_cast<byte *>(malloc(num_bytes + 1));
 
     if (result == NULL)
     {
@@ -243,7 +244,7 @@ static boolean ReadChannelEvent(midi_event_t *event,
 
 // Read sysex event:
 
-static boolean ReadSysExEvent(midi_event_t *event, int event_type,
+static boolean ReadSysExEvent(midi_event_t *event, midi_event_type_t event_type,
                               FILE *stream)
 {
     event->event_type = event_type;
@@ -505,8 +506,8 @@ static boolean ReadAllTracks(midi_file_t *file, FILE *stream)
 
     // Allocate list of tracks and read each track:
 
-    file->tracks = malloc(sizeof(midi_track_t) * file->num_tracks);
-
+    auto *loc = malloc(sizeof(midi_track_t) * file->num_tracks);
+    file->tracks = new (loc) midi_track_t();
     if (file->tracks == NULL)
     {
         return false;
@@ -586,7 +587,8 @@ midi_file_t *MIDI_LoadFile(char *filename)
     midi_file_t *file;
     FILE *stream;
 
-    file = malloc(sizeof(midi_file_t));
+    auto *loc = malloc(sizeof(midi_file_t));
+    file = new (loc) midi_file_t ();
 
     if (file == NULL)
     {
@@ -647,7 +649,9 @@ midi_track_iter_t *MIDI_IterateTrack(midi_file_t *file, unsigned int track)
 
     assert(track < file->num_tracks);
 
-    iter = malloc(sizeof(*iter));
+    auto *loc = malloc(sizeof(*iter));
+    iter = new (loc) midi_track_iter_t ();
+
     iter->track = &file->tracks[track];
     iter->position = 0;
     iter->loop_point = 0;

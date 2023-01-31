@@ -26,7 +26,7 @@
 #include <assert.h>
 #include <locale.h>
 
-#include "SDL_filesystem.hpp"
+#include "SDL_filesystem.h"
 
 #include "config.h"
 

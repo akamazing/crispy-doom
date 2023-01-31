@@ -495,9 +495,7 @@ static const extsavegdata_t extsavegdata[] =
 void P_WriteExtendedSaveGameData (void)
 {
 	int i;
-
-	auto loc = malloc(MAX_LINE_LEN);
-        line = new (loc) char();
+    line = static_cast<char *>(malloc(MAX_LINE_LEN));
 	for (i = 0; i < arrlen(extsavegdata); i++)
 	{
 		extsavegdata[i].extsavegwritefn(extsavegdata[i].key);

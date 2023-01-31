@@ -443,9 +443,11 @@ void *W_CacheLumpNum(lumpindex_t lumpnum, int tag)
 //
 // W_CacheLumpName
 //
-void *W_CacheLumpName(const char *name, int tag)
+template<typename T>
+T W_CacheLumpName(const char *name, int tag)
 {
-    return W_CacheLumpNum(W_GetNumForName(name), tag);
+    T retVal = W_CacheLumpNum(W_GetNumForName(name), tag);
+    return retVal;
 }
 
 // 

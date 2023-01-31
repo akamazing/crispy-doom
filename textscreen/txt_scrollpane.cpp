@@ -17,6 +17,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <new>
 
 #include "txt_scrollpane.hpp"
 #include "txt_gui.hpp"
@@ -567,7 +568,8 @@ txt_scrollpane_t *TXT_NewScrollPane(int w, int h, TXT_UNCAST_ARG(target))
     TXT_CAST_ARG(txt_widget_t, target);
     txt_scrollpane_t *scrollpane;
 
-    scrollpane = malloc(sizeof(txt_scrollpane_t));
+    auto *loc = malloc(sizeof(txt_scrollpane_t));
+    scrollpane = new (loc) txt_scrollpane_t ();
     TXT_InitWidget(scrollpane, &txt_scrollpane_class);
     scrollpane->w = w;
     scrollpane->h = h;

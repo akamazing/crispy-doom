@@ -207,7 +207,7 @@ void D_Display (void)
     static  boolean             inhelpscreensstate = false;
     static  boolean             popupactivestate = false; // [STRIFE]
     static  boolean             fullscreen = false;
-    static  gamestate_t         oldgamestate = -1;
+    static  gamestate_t         oldgamestate = GS_FORCEWIPE;
     static  int                 borderdrawcount;
     int                         nowtime;
     int                         tics;
@@ -226,7 +226,7 @@ void D_Display (void)
     if (setsizeneeded)
     {
         R_ExecuteSetViewSize ();
-        oldgamestate = -1;                      // force background redraw
+        oldgamestate = GS_FORCEWIPE;                      // force background redraw
         borderdrawcount = 3;
     }
 
@@ -653,13 +653,13 @@ void D_DoAdvanceDemo (void)
         gamestate = GS_DEMOSCREEN;
         pagename = DEH_String("PANEL0");
         S_StartSound(NULL, sfx_rb2act);
-        wipegamestate = -1;
+        wipegamestate = GS_FORCEWIPE;
         break;
     case 0: // Rogue logo
         pagetic = 4*TICRATE;
         gamestate = GS_DEMOSCREEN;
         pagename = DEH_String("RGELOGO");
-        wipegamestate = -1;
+        wipegamestate = GS_FORCEWIPE;
         break;
     case 1:
         pagetic = 7*TICRATE;              // The comet struck our planet without
@@ -702,7 +702,7 @@ void D_DoAdvanceDemo (void)
         pagetic = 9*TICRATE;
         gamestate = GS_DEMOSCREEN;
         pagename = DEH_String("TITLEPIC");
-        wipegamestate = -1;
+        wipegamestate = GS_FORCEWIPE;
         break;
     case 8: // demo
         ClearTmp();
@@ -713,13 +713,13 @@ void D_DoAdvanceDemo (void)
         pagetic = 6*TICRATE;
         gamestate = GS_DEMOSCREEN;
         pagename = DEH_String("vellogo");
-        wipegamestate = -1;
+        wipegamestate = GS_FORCEWIPE;
         break;
     case 10: // credits
         gamestate = GS_DEMOSCREEN;
         pagetic = 12*TICRATE;
         pagename = DEH_String("CREDIT");
-        wipegamestate = -1;
+        wipegamestate = GS_FORCEWIPE;
         break;
     default:
         break;

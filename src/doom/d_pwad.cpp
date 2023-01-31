@@ -47,7 +47,7 @@ void D_LoadSigilWad (void)
 
 	static const struct {
 		const char *name;
-		const char new_name[8];
+		const char new_name[9];
 	} sigil_lumps [] = {
 		{"CREDIT",   "SIGCREDI"},
 		{"HELP1",    "SIGHELP1"},
@@ -157,7 +157,7 @@ void D_LoadSigilWad (void)
 
 		if (j != -1 && !strncasecmp(W_WadNameForLump(lumpinfo[j]), "SIGIL_SHREDS", 12))
 		{
-			memcpy(lumpinfo[j]->name, sigil_lumps[i].new_name, 8);
+			memcpy(lumpinfo[j]->name, sigil_lumps[i].new_name, 9);
 		}
 	}
 
@@ -168,7 +168,7 @@ void D_LoadSigilWad (void)
 
 		if (j != -1 && !strcasecmp(W_WadNameForLump(lumpinfo[j]), sigil_basename))
 		{
-			memcpy(lumpinfo[j]->name, sigil_lumps[i].new_name, 8);
+			memcpy(lumpinfo[j]->name, sigil_lumps[i].new_name, 9);
 		}
 	}
 
@@ -223,7 +223,7 @@ static void CheckLoadNerve (void)
 
 	static const struct {
 		const char *name;
-		const char new_name[8];
+		const char new_name[9];
 	} nerve_lumps [] = {
 		{"TITLEPIC", "NERVEPIC"},
 		{"INTERPIC", "NERVEINT"},
@@ -284,7 +284,7 @@ static void CheckLoadNerve (void)
 
 		if (j != -1 && !strcasecmp(W_WadNameForLump(lumpinfo[j]), "NERVE.WAD"))
 		{
-			memcpy(lumpinfo[j]->name, nerve_lumps[i].new_name, 8);
+			memcpy(lumpinfo[j]->name, nerve_lumps[i].new_name, 9);
 		}
 	}
 

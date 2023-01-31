@@ -32,7 +32,7 @@ void TXT_Puts(const char *s);
 void TXT_GotoXY(int x, int y);
 void TXT_GetXY(int *x, int *y);
 void TXT_FGColor(txt_color_t color);
-void TXT_BGColor(int color, int blinking);
+void TXT_BGColor(txt_color_t color, int blinking);
 void TXT_SaveColors(txt_saved_colors_t *save);
 void TXT_RestoreColors(txt_saved_colors_t *save);
 void TXT_ClearScreen(void);

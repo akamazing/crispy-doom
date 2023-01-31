@@ -178,7 +178,7 @@ void F_StartFinale (void)
     gamestate = GS_FINALE;
     viewactive = false;
     automapactive = false;
-    wipegamestate = -1; // [STRIFE]
+    wipegamestate = GS_FORCEWIPE; // [STRIFE]
 
     // [STRIFE] Setup the slide show
     slideshow_panel = DEH_String("PANEL0");
@@ -432,7 +432,7 @@ static void F_DoSlideShow(void)
     case SLIDE_EXIT: // state -1: proceed to next finale stage
         finalecount = 0;
         finalestage = F_STAGE_ARTSCREEN;
-        wipegamestate = -1;
+        wipegamestate = GS_FORCEWIPE;
         S_StartMusic(mus_fast);
         // haleyjd 20130301: The ONLY glitch fixed in 1.31 of Strife
         // *would* be something this insignificant, of course!
@@ -452,7 +452,7 @@ static void F_DoSlideShow(void)
         finalecount = 0;
         finalestage = F_STAGE_ARTSCREEN;
         if(menuactive)
-            wipegamestate = -1;
+            wipegamestate = GS_FORCEWIPE;
         S_StartMusic(mus_fast);
         slideshow_state = SLIDE_CHOCO; // remain here.
         break;
@@ -508,7 +508,7 @@ void F_Ticker (void)
     {
         finalecount = 0;
         finalestage = F_STAGE_ARTSCREEN;
-        wipegamestate = -1;		// force a wipe
+        wipegamestate = GS_FORCEWIPE;		// force a wipe
         if (gameepisode == 3)
             S_StartMusic (mus_logo);
     }
@@ -653,7 +653,7 @@ void F_StartCast (void)
     casttics = caststate->tics;
     if(casttics > 50)
         casttics = 50;
-    wipegamestate = -1;             // force a screen wipe
+    wipegamestate = GS_FORCEWIPE;             // force a screen wipe
     castdeath = false;
     finalestage = F_STAGE_CAST;
     castframes = 0;

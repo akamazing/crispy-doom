@@ -17,6 +17,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <new>
 
 #include "doomkeys.hpp"
 
@@ -383,7 +384,8 @@ static txt_spincontrol_t *TXT_BaseSpinControl(void)
 {
     txt_spincontrol_t *spincontrol;
 
-    spincontrol = malloc(sizeof(txt_spincontrol_t));
+    auto *loc = malloc(sizeof(txt_spincontrol_t));
+    spincontrol = new(loc) txt_spincontrol_t ();
 
     TXT_InitWidget(spincontrol, &txt_spincontrol_class);
     spincontrol->buffer_len = 25;

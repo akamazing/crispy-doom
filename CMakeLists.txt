@@ -3,6 +3,9 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 cmake_minimum_required(VERSION 3.7.2)
 project("Crispy Doom" VERSION 5.12.0 LANGUAGES  CXX)
 
+#set(CMAKE_CXX_STANDARD 17)
+#set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 # Autotools variables
 set(top_srcdir ${CMAKE_CURRENT_SOURCE_DIR})
 set(top_builddir ${CMAKE_CURRENT_BINARY_DIR})

@@ -158,7 +158,7 @@ static void OpenSelectorWindow(txt_dropdown_list_t *list)
         TXT_AddWidget(window, button);
 
         // Callback struct
-        auto loc = malloc(sizeof(callback_data_t));
+        auto *loc = malloc(sizeof(callback_data_t));
         data = new (loc) callback_data_t();
         data->list = list;
         data->window = window;

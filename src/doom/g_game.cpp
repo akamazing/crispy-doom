@@ -857,7 +857,7 @@ void G_DoLoadLevel (void)
     levelstarttic = gametic;        // for time calculation
     
     if (wipegamestate == GS_LEVEL) 
-	wipegamestate = -1;             // force a wipe 
+	wipegamestate = GS_FORCEWIPE;             // force a wipe
 
     gamestate = GS_LEVEL; 
 
@@ -2791,7 +2791,7 @@ void G_WriteDemoTiccmd (ticcmd_t* cmd)
 //
 void G_RecordDemo (const char *name)
 {
-    size_t demoname_size;
+    int demoname_size;
     int i;
     int maxsize;
 
@@ -2807,7 +2807,7 @@ void G_RecordDemo (const char *name)
 
     usergame = false;
     demoname_size = strlen(name) + 5 + 6; // [crispy] + 6 for "-00000"
-    demoname = Z_Malloc(demoname_size, PU_STATIC, NULL);
+    demoname = static_cast<char *>(Z_Malloc(demoname_size, PU_STATIC, NULL));
     M_snprintf(demoname, demoname_size, "%s.lmp", name);
 
     // [crispy] prevent overriding demos by adding a file name suffix
@@ -2830,7 +2830,7 @@ void G_RecordDemo (const char *name)
     i = M_CheckParmWithArgs("-maxdemo", 1);
     if (i)
 	maxsize = atoi(myargv[i+1])*1024;
-    demobuffer = Z_Malloc (maxsize,PU_STATIC,NULL); 
+    demobuffer = static_cast<byte *>(Z_Malloc (maxsize,PU_STATIC,NULL));
     demoend = demobuffer + maxsize;
 	
     demorecording = true; 
@@ -3030,7 +3030,7 @@ void G_DoPlayDemo (void)
         }
     }
 
-    skill = *demo_p++; 
+    skill = static_cast<skill_t>(*demo_p++);
     episode = *demo_p++; 
     map = *demo_p++; 
     if (!olddemo)
